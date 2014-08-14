@@ -93,6 +93,8 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
+CMAKE_PREFIX_PATH:PATH=C:/SDK/glut-3.7.6-bin
+
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=HuaweiAntennaModeling
 
@@ -147,6 +149,12 @@ CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
+
+//Path to a file.
+GLUT_INCLUDE_DIR:PATH=GLUT_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+GLUT_glut_LIBRARY:FILEPATH=C:/SDK/glut-3.7.6-bin/glut32.lib
 
 //Value Computed by CMake
 HuaweiAntennaModeling_BINARY_DIR:STATIC=D:/Projects/huawei_antenna_modeling/win32_build
@@ -284,6 +292,10 @@ CMAKE_SUPPRESS_DEVELOPER_WARNINGS:INTERNAL=FALSE
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLUT_INCLUDE_DIR
+GLUT_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLUT_glut_LIBRARY
+GLUT_glut_LIBRARY-ADVANCED:INTERNAL=1
 //Stored GUID
 SG_Filter_CMake Rules_GUID_CMAKE:INTERNAL=940012E3-FF90-4AD3-9483-927F9EDCCCC2
 //Stored GUID

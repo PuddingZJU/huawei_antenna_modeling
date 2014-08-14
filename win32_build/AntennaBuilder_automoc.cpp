@@ -4,5 +4,4 @@
 #include "moc_Nansy.cpp"
 #include "moc_NansyMenu.cpp"
 #include "moc_SandboxGLWidget.cpp"
-#include "moc_SandboxGLWidget.cpp"
 #include "moc_mainwindow.cpp"

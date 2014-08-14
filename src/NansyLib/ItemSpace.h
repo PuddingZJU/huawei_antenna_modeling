@@ -6,7 +6,7 @@
 #include "WorldPolygon.h"
 #include "WindowPolygon.h"
 #include "MidSpace.h"
-#include "ObjReader.h"
+#include "Skinning/IO/ObjReader.h"
 
 using std::vector;
 

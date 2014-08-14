@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.0.0 FATAL_ERROR)
 project(HuaweiAntennaModeling)
+if(WIN32)
+	ADD_DEFINITIONS(-DNOMINMAX)
+endif()	
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 #set Include
@@ -25,7 +28,8 @@ aux_source_directory(./src/Skinning/IO	Main_SRC_LIST)
 aux_source_directory(./src/Util	Main_SRC_LIST)
 aux_source_directory(ui Main_SRC_LIST)
 #add thirdparty mod
-#set Qt5
+
+#find packages
 find_package(Qt5Core REQUIRED)
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Widgets REQUIRED)

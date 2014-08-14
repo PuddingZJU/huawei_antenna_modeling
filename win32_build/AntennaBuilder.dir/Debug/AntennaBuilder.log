@@ -1,4 +1,4 @@
-﻿Build started 2014/8/14 14:50:10.
+﻿Build started 2014/8/14 15:46:24.
      1>Project "D:\Projects\huawei_antenna_modeling\win32_build\AntennaBuilder.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          setlocal
@@ -16,25 +16,64 @@
          if %errorlevel% neq 0 goto :VCEnd
          :VCEnd
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Projects\huawei_antenna_modeling\win32_build /ID:\Projects\huawei_antenna_modeling /ID:\Projects\huawei_antenna_modeling\include /ID:\Projects\huawei_antenna_modeling\.\src /ID:\Projects\huawei_antenna_modeling\.\src\Curve /ID:\Projects\huawei_antenna_modeling\.\src\MocapIO /ID:\Projects\huawei_antenna_modeling\.\src\NansyLib /ID:\Projects\huawei_antenna_modeling\.\src\QuasarMath /ID:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve /ID:\Projects\huawei_antenna_modeling\.\src\Skinning /ID:\Projects\huawei_antenna_modeling\.\src\Util /ID:\Projects\huawei_antenna_modeling\ui /IC:\SDK\Qt\5.3\msvc2013_opengl\include /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore /I"C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013" /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_OPENGL_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"AntennaBuilder.dir\Debug\\" /Fd"AntennaBuilder.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /DNOMINMAX AntennaBuilder_automoc.cpp
-         AntennaBuilder_automoc.cpp
-     1>d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(21): error C2011: 'qt_meta_stringdata_SandboxGLWidget_t' : 'struct' type redefinition
-                 d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(21) : see declaration of 'qt_meta_stringdata_SandboxGLWidget_t'
-     1>d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(30): error C2370: 'qt_meta_stringdata_SandboxGLWidget' : redefinition; different storage class
-                 d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(30) : see declaration of 'qt_meta_stringdata_SandboxGLWidget'
-     1>d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(32): error C2027: use of undefined type 'qt_meta_stringdata_SandboxGLWidget_t'
-                 d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(21) : see declaration of 'qt_meta_stringdata_SandboxGLWidget_t'
-     1>d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(32): error C2227: left of '->stringdata' must point to class/struct/union/generic type
-     1>d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(33): error C2027: use of undefined type 'qt_meta_stringdata_SandboxGLWidget_t'
-                 d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(21) : see declaration of 'qt_meta_stringdata_SandboxGLWidget_t'
-     1>d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(33): error C2227: left of '->stringdata' must point to class/struct/union/generic type
-     1>d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(34): error C2027: use of undefined type 'qt_meta_stringdata_SandboxGLWidget_t'
-                 d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(21) : see declaration of 'qt_meta_stringdata_SandboxGLWidget_t'
-     1>d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(34): error C2227: left of '->stringdata' must point to class/struct/union/generic type
-     1>d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(37): error C2078: too many initializers
-     1>d:\projects\huawei_antenna_modeling\win32_build\moc_SandboxGLWidget.cpp(37): fatal error C1903: unable to recover from previous error(s); stopping compilation
-     1>Done Building Project "D:\Projects\huawei_antenna_modeling\win32_build\AntennaBuilder.vcxproj" (Build target(s)) -- FAILED.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Projects\huawei_antenna_modeling\win32_build /ID:\Projects\huawei_antenna_modeling /ID:\Projects\huawei_antenna_modeling\include /ID:\Projects\huawei_antenna_modeling\.\src /ID:\Projects\huawei_antenna_modeling\.\src\Curve /ID:\Projects\huawei_antenna_modeling\.\src\MocapIO /ID:\Projects\huawei_antenna_modeling\.\src\NansyLib /ID:\Projects\huawei_antenna_modeling\.\src\QuasarMath /ID:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve /ID:\Projects\huawei_antenna_modeling\.\src\Skinning /ID:\Projects\huawei_antenna_modeling\.\src\Util /ID:\Projects\huawei_antenna_modeling\ui /IC:\SDK\Qt\5.3\msvc2013_opengl\include /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore /I"C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013" /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D NOMINMAX /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_OPENGL_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"AntennaBuilder.dir\Debug\\" /Fd"AntennaBuilder.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ui\mainwindow.cpp
+         mainwindow.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\huawei_antenna_modeling\win32_build\Debug\AntennaBuilder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgetsd.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5OpenGLd.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Cored.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Guid.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgetsd.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Guid.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Cored.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/huawei_antenna_modeling/win32_build/Debug/AntennaBuilder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/huawei_antenna_modeling/win32_build/Debug/AntennaBuilder.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug AntennaBuilder.dir\Debug\AnduGLWidget.obj
+         AntennaBuilder.dir\Debug\main.obj
+         AntennaBuilder.dir\Debug\SandboxGLWidget.obj
+         AntennaBuilder.dir\Debug\vectorizer.obj
+         AntennaBuilder.dir\Debug\BVHReader.obj
+         AntennaBuilder.dir\Debug\BVHWriter.obj
+         AntennaBuilder.dir\Debug\DataRW.obj
+         AntennaBuilder.dir\Debug\MotionClip.obj
+         AntennaBuilder.dir\Debug\MotionJoint.obj
+         AntennaBuilder.dir\Debug\MotionKeyframeSeries.obj
+         AntennaBuilder.dir\Debug\SerialTextDataReader.obj
+         AntennaBuilder.dir\Debug\ActLine.obj
+         AntennaBuilder.dir\Debug\ActLinePair.obj
+         AntennaBuilder.dir\Debug\ActPolygon.obj
+         AntennaBuilder.dir\Debug\ItemSpace.obj
+         AntennaBuilder.dir\Debug\MidSpace.obj
+         AntennaBuilder.dir\Debug\Nansy.obj
+         AntennaBuilder.dir\Debug\NansyMath.obj
+         AntennaBuilder.dir\Debug\NansyMenu.obj
+         AntennaBuilder.dir\Debug\PlaneEquation.obj
+         AntennaBuilder.dir\Debug\WindowDot.obj
+         AntennaBuilder.dir\Debug\WindowLine.obj
+         AntennaBuilder.dir\Debug\WindowPolygon.obj
+         AntennaBuilder.dir\Debug\WorldDot.obj
+         AntennaBuilder.dir\Debug\WorldPolygon.obj
+         AntennaBuilder.dir\Debug\ComputeVector.obj
+         AntennaBuilder.dir\Debug\Line.obj
+         AntennaBuilder.dir\Debug\Mathematics.obj
+         AntennaBuilder.dir\Debug\MatrixTool.obj
+         AntennaBuilder.dir\Debug\Vector2Cmp.obj
+         AntennaBuilder.dir\Debug\ComputeMesh.obj
+         AntennaBuilder.dir\Debug\EditableSubMesh.obj
+         AntennaBuilder.dir\Debug\Element.obj
+         AntennaBuilder.dir\Debug\Mesh.obj
+         AntennaBuilder.dir\Debug\MeshSerializer.obj
+         AntennaBuilder.dir\Debug\MeshToolbox.obj
+         AntennaBuilder.dir\Debug\MeshVertexData.obj
+         AntennaBuilder.dir\Debug\Skeleton.obj
+         AntennaBuilder.dir\Debug\SubMesh.obj
+         AntennaBuilder.dir\Debug\VertexBoneAssignmentData.obj
+         AntennaBuilder.dir\Debug\AnduMeshReader.obj
+         AntennaBuilder.dir\Debug\AnduObjReader.obj
+         AntennaBuilder.dir\Debug\MeshReader.obj
+         AntennaBuilder.dir\Debug\MeshWriter.obj
+         AntennaBuilder.dir\Debug\ObjReader.obj
+         AntennaBuilder.dir\Debug\SubMeshReader.obj
+         AntennaBuilder.dir\Debug\SubMeshWriter.obj
+         AntennaBuilder.dir\Debug\ConsoleToolbox.obj
+         AntennaBuilder.dir\Debug\LogWriter.obj
+         AntennaBuilder.dir\Debug\OpenGLToolbox.obj
+         AntennaBuilder.dir\Debug\mainwindow.obj
+         AntennaBuilder.dir\Debug\AntennaBuilder_automoc.obj
+         AntennaBuilder.vcxproj -> D:\Projects\huawei_antenna_modeling\win32_build\Debug\AntennaBuilder.exe
+     1>Done Building Project "D:\Projects\huawei_antenna_modeling\win32_build\AntennaBuilder.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:01.56
+Time Elapsed 00:00:03.31

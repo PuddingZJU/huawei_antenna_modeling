@@ -7,7 +7,10 @@
     <ClCompile Include="..\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Curve\Vectorizer.cpp">
+    <ClCompile Include="..\src\SandboxGLWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Curve\vectorizer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\MocapIO\BVHReader.cpp">
@@ -55,13 +58,7 @@
     <ClCompile Include="..\src\NansyLib\NansyMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\NansyLib\ObjReader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\NansyLib\PlaneEquation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\NansyLib\SandboxGLWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\NansyLib\WindowDot.cpp">
@@ -92,9 +89,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\QuasarMath\Vector2Cmp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\QuasarMath\Curve\Vectorizer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\Skinning\ComputeMesh.cpp">
@@ -158,9 +152,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\ui\mainwindow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ui\SandboxGLWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AntennaBuilder_automoc.cpp">

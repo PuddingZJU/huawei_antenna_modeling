@@ -108,7 +108,7 @@ void ObjReader::getNorm(QStringList sl, WorldDot *wld)
 			wld->SetNorm(d);
 		}
 	} else {
-		printf("invalid norm vector %s\n", sl.join(" ").toAscii().data());
+		printf("invalid norm vector %s\n", sl.join(" ").toLatin1().data());
 	}
 }
 
@@ -116,7 +116,7 @@ void ObjReader::pushTex( QStringList sl )
 {
 	vector<double> tex(2);
 	if(sl.size() < 3) {
-		printf("invalid texture coordinates %s\n", sl.join(" ").toAscii().data());
+		printf("invalid texture coordinates %s\n", sl.join(" ").toLatin1().data());
 		return;
 	}
 	tex[0] = sl[1].toDouble();
