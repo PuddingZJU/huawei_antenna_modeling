@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHReader.cpp \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHReader.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/SerialTextDataReader.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/DataRW.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/./MotionJoint.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Mathematics.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Vector2.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Matrix3.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Vector3.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Plane.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Matrix4.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Quaternion.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/./MotionClip.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionKeyframeSeries.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/./Curve/Curve.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/Curve/single_curve.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/Curve/base_curve.h \
+  /Users/leon/Documents/projects/huawei_antenna_modeling/src/Curve/complex_curve.h

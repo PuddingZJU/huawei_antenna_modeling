@@ -1,0 +1,4 @@
+/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/ALL_BUILD.dir
+/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder.dir
+/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir
+/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/ZERO_CHECK.dir

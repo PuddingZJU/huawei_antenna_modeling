@@ -1,0 +1,122 @@
+TCompilerIdCXX
+v6
+r1
+cCheck dependencies
+cCompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX normal i386
+cPhaseScriptExecution Run\ Script /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000053CDFE51000000000000044C
+t1406008913
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053CDFE5100000000000001DE
+t1406008913
+s478
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CMakeCXXCompilerId.cpp
+c0000000053D8930C00000000000033F5
+t1406702348
+s13301
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX
+t2
+s0
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+t1406702349
+s3456
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
+c0000000053D8930D00000000000000B7
+t1406702349
+s183
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+c0000000053D8930D000000000000002A
+t1406702349
+s42
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb16b378dca88b941^d1ae3e8dca88b941^---0#1#1#--18"Check dependencies36"741FE20E-9E76-4F08-AD6D-F978F6BA423B-
+
+CCompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s428395149.246786
+e428395149.270721
+r1
+xCompileC
+xCompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+x/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CMakeCXXCompilerId.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CMakeCXXCompilerId.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Compile /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CMakeCXXCompilerId.cpp178"CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerab423f8dca88b941^9c53458dca88b941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CMakeCXXCompilerId.cpp0000000000000000^2882"CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o36"1542C5BE-7928-4BBF-9ACA-04B0093FAC7A-
+b09AA2E5B-4547-444B-8B5E-F2424F845F8D
+
+CLd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX normal i386
+s428395149.271539
+e428395149.295009
+r1
+xLd
+x/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX
+xnormal
+xi386
+d/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
+d/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX28"Ld CompilerIdCXX normal i3868e90458dca88b941^a1864b8dca88b941^---0#0#1#--1157"Ld CompilerIdCXX normal i386    cd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX -F/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX -filelist /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX_dependency_info.dat -o /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX36"58F1A907-9ACF-4953-8F89-F5E601235635-
+b09AA2E5B-4547-444B-8B5E-F2424F845F8D
+
+CPhaseScriptExecution Run\ Script /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+s428395149.295971
+e428395149.304522
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'113"PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh76fc4b8dca88b941^34f64d8dca88b941^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-428395149#0#47#-0#-----0#0#1#--409"PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX    /bin/sh -c /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"4D5C5195-0594-4656-B7F1-9CE026C6F571-
+b09AA2E5B-4547-444B-8B5E-F2424F845F8D
+

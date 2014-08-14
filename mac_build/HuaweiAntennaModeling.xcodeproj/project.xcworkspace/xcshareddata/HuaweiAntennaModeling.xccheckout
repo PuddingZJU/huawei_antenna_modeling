@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5625856F-E400-4433-A2BD-3C3353BD7829</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HuaweiAntennaModeling</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F944B7D8-D977-401D-A1DB-5A29638803EF</key>
+		<string>https://github.com/ZjuCodeKnight/huawei_antenna_modeling.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mac_build/HuaweiAntennaModeling.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F944B7D8-D977-401D-A1DB-5A29638803EF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ZjuCodeKnight/huawei_antenna_modeling.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F944B7D8-D977-401D-A1DB-5A29638803EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F944B7D8-D977-401D-A1DB-5A29638803EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>huawei_antenna_modeling</string>
+		</dict>
+	</array>
+</dict>
+</plist>

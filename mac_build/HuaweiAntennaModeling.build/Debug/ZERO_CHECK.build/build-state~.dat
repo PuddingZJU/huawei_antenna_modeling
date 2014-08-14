@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/ZERO_CHECK.build/Script-5278764D4A9647468B638F18.sh
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/ZERO_CHECK.build/Script-5278764D4A9647468B638F18.sh
+c0000000053D7918700000000000000DB
+t1406636423
+s219
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies63d49107c987b941^fed19307c987b941^---0#1#1#--18"Check dependencies36"D3C711F0-59BF-48BD-A298-ED68AC022701-
+
+CPhaseScriptExecution CMake\ Rules /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/ZERO_CHECK.build/Script-5278764D4A9647468B638F18.sh
+s428329223.577752
+e428329223.681507
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/ZERO_CHECK.build/Script-5278764D4A9647468B638F18.sh
+oecho ""
+o
+omake -f /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'129"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/ZERO_CHECK.build/Script-5278764D4A9647468B638F18.shef929407c987b941^9277ae07c987b941^-231"echo ""make -f /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeScripts/ReRunCMake.makemake[1]: `/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-428329223#0#8#-0#-----2@102"make -f /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeScripts/ReRunCMake.make-428329223#9#102#-0#-----2@120"make[1]: `/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/cmake.check_cache' is up to date.-428329223#111#120#-0#-----0#0#1#--358"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/ZERO_CHECK.build/Script-5278764D4A9647468B638F18.sh    cd /Users/leon/Documents/projects/huawei_antenna_modeling    /bin/sh -c /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/ZERO_CHECK.build/Script-5278764D4A9647468B638F18.sh36"7729D70D-C56C-4C50-9591-1B49294195B5-
+b6F0A4F2C-876C-4E9A-B384-2691AD875448
+

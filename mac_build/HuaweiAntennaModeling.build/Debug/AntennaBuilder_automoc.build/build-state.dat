@@ -1,0 +1,129 @@
+TAntennaBuilder_automoc
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-75CD2B073863414AB7289767.sh
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-1ED1C75360B24CE6927C05CB.sh
+c0000000053E3229B00000000000000E7
+t1407394459
+s231
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-3EF3A6982A5F4AB7B1C70009.sh
+c0000000053D7918700000000000000E7
+t1406636423
+s231
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-75CD2B073863414AB7289767.sh
+c0000000053E3249000000000000000E7
+t1407394960
+s231
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-807BD48B5B534E4ABE06E875.sh
+c0000000053D8934200000000000000E7
+t1406702402
+s231
+
+N/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-E6B3C566307E4BCDBA3F77F5.sh
+c0000000053D892C800000000000000E7
+t1406702280
+s231
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7363fac45c93b941^6daefac45c93b941^---0#1#1#--18"Check dependencies36"26CBB726-96F6-46CF-8FEF-3ACA107742C4-
+
+CPhaseScriptExecution CMake\ Rules /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-1ED1C75360B24CE6927C05CB.sh
+s429087259.275358
+e429087259.918707
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-1ED1C75360B24CE6927C05CB.sh
+oecho "Automatic moc for target AntennaBuilder"
+oAutomatic moc for target AntennaBuilder
+ocd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /usr/local/Cellar/cmake/3.0.0/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug
+oAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp: file is empty
+o
+oAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp: file is empty
+o
+oAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp: file is empty
+o
+oAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp: file is empty
+o
+oAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp: file is empty
+o
+oGenerating moc_ItemSpace.cpp
+oGenerating moc_MidSpace.cpp
+oGenerating moc_Nansy.cpp
+oGenerating moc_NansyMenu.cpp
+oGenerating moc_SandboxGLWidget.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'141"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-1ED1C75360B24CE6927C05CB.sh787c471b5a93b941^f930eb1b5a93b941^-1051"echo "Automatic moc for target AntennaBuilder"Automatic moc for target AntennaBuildercd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /usr/local/Cellar/cmake/3.0.0/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ DebugAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp: file is emptyAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp: file is emptyAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp: file is emptyAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp: file is emptyAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp: file is emptyGenerating moc_ItemSpace.cppGenerating moc_MidSpace.cppGenerating moc_Nansy.cppGenerating moc_NansyMenu.cppGenerating moc_SandboxGLWidget.cpp13(21%IDEActivityLogMessage2@47"echo "Automatic moc for target AntennaBuilder"-429087259#0#47#-0#-----2@40"Automatic moc for target AntennaBuilder-429087259#47#40#-0#-----2@238"cd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /usr/local/Cellar/cmake/3.0.0/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug-429087259#87#238#-0#-----2@115"AUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp: file is empty-429087259#325#115#-0#-----2@120"AUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp: file is empty-429087259#441#120#-0#-----2@114"AUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp: file is empty-429087259#562#114#-0#-----2@111"AUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp: file is empty-429087259#677#111#-0#-----2@115"AUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp: file is empty-429087259#789#115#-0#-----2@29"Generating moc_ItemSpace.cpp-429087259#905#29#-0#-----2@28"Generating moc_MidSpace.cpp-429087259#934#28#-0#-----2@25"Generating moc_Nansy.cpp-429087259#962#25#-0#-----2@29"Generating moc_NansyMenu.cpp-429087259#987#29#-0#-----2@35"Generating moc_SandboxGLWidget.cpp-429087259#1016#35#-0#-----0#0#1#--382"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-1ED1C75360B24CE6927C05CB.sh    cd /Users/leon/Documents/projects/huawei_antenna_modeling    /bin/sh -c /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-1ED1C75360B24CE6927C05CB.sh36"0189CA0B-C5AA-4CE9-88BB-4D662158AFF8-
+bA2A3005A-7B02-48BF-B701-47363F190243
+
+CPhaseScriptExecution CMake\ Rules /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-3EF3A6982A5F4AB7B1C70009.sh
+s428329223.577686
+e428329224.362992
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-3EF3A6982A5F4AB7B1C70009.sh
+oecho "Automatic moc for target AntennaBuilder"
+oAutomatic moc for target AntennaBuilder
+ocd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /Applications/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug
+oGenerating moc_antennaglwidget.cpp
+oGenerating moc_mainwindow.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'141"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-3EF3A6982A5F4AB7B1C70009.sheb8b9407c987b941^4eed5c08c987b941^-393"echo "Automatic moc for target AntennaBuilder"Automatic moc for target AntennaBuildercd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /Applications/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ DebugGenerating moc_antennaglwidget.cppGenerating moc_mainwindow.cpp5(21%IDEActivityLogMessage2@47"echo "Automatic moc for target AntennaBuilder"-428329223#0#47#-0#-----2@40"Automatic moc for target AntennaBuilder-428329223#47#40#-0#-----2@241"cd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /Applications/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug-428329223#87#241#-0#-----2@35"Generating moc_antennaglwidget.cpp-428329224#328#35#-0#-----2@30"Generating moc_mainwindow.cpp-428329224#363#30#-0#-----0#0#1#--382"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-3EF3A6982A5F4AB7B1C70009.sh    cd /Users/leon/Documents/projects/huawei_antenna_modeling    /bin/sh -c /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-3EF3A6982A5F4AB7B1C70009.sh36"7E027756-3C53-4654-9E88-9E571C8B30BE-
+bE6C43A12-A5E2-4E96-8296-05D1D909076E
+
+CPhaseScriptExecution CMake\ Rules /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-75CD2B073863414AB7289767.sh
+s429087940.978843
+e429087941.028511
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-75CD2B073863414AB7289767.sh
+oecho "Automatic moc for target AntennaBuilder"
+oAutomatic moc for target AntennaBuilder
+ocd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /usr/local/Cellar/cmake/3.0.0/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug
+oAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp: file is empty
+o
+oAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp: file is empty
+o
+oAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp: file is empty
+o
+oAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp: file is empty
+o
+oAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp: file is empty
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'141"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-75CD2B073863414AB7289767.shf6effac45c93b941^cf4d07c55c93b941^-905"echo "Automatic moc for target AntennaBuilder"Automatic moc for target AntennaBuildercd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /usr/local/Cellar/cmake/3.0.0/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ DebugAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp: file is emptyAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp: file is emptyAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp: file is emptyAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp: file is emptyAUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp: file is empty8(21%IDEActivityLogMessage2@47"echo "Automatic moc for target AntennaBuilder"-429087940#0#47#-0#-----2@40"Automatic moc for target AntennaBuilder-429087941#47#40#-0#-----2@238"cd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /usr/local/Cellar/cmake/3.0.0/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug-429087941#87#238#-0#-----2@115"AUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp: file is empty-429087941#325#115#-0#-----2@120"AUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp: file is empty-429087941#441#120#-0#-----2@114"AUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp: file is empty-429087941#562#114#-0#-----2@111"AUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp: file is empty-429087941#677#111#-0#-----2@115"AUTOGEN: warning: /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp: file is empty-429087941#789#115#-0#-----0#0#1#--382"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-75CD2B073863414AB7289767.sh    cd /Users/leon/Documents/projects/huawei_antenna_modeling    /bin/sh -c /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-75CD2B073863414AB7289767.sh36"C100C621-2C51-4802-A382-36E24ED976E6-
+b4D67C7DC-FE41-44FA-8681-D078E7767845
+
+CPhaseScriptExecution CMake\ Rules /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-807BD48B5B534E4ABE06E875.sh
+s428395202.130455
+e428395202.904876
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-807BD48B5B534E4ABE06E875.sh
+oecho "Automatic moc for target AntennaBuilder"
+oAutomatic moc for target AntennaBuilder
+ocd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /Applications/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug
+oGenerating moc_antennaglwidget.cpp
+oGenerating moc_mainwindow.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'141"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-807BD48B5B534E4ABE06E875.sh84f321c2ca88b941^33a7e7c2ca88b941^-393"echo "Automatic moc for target AntennaBuilder"Automatic moc for target AntennaBuildercd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /Applications/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ DebugGenerating moc_antennaglwidget.cppGenerating moc_mainwindow.cpp5(21%IDEActivityLogMessage2@47"echo "Automatic moc for target AntennaBuilder"-428395202#0#47#-0#-----2@40"Automatic moc for target AntennaBuilder-428395202#47#40#-0#-----2@241"cd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /Applications/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug-428395202#87#241#-0#-----2@35"Generating moc_antennaglwidget.cpp-428395202#328#35#-0#-----2@30"Generating moc_mainwindow.cpp-428395202#363#30#-0#-----0#0#1#--382"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-807BD48B5B534E4ABE06E875.sh    cd /Users/leon/Documents/projects/huawei_antenna_modeling    /bin/sh -c /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-807BD48B5B534E4ABE06E875.sh36"58B77759-8812-4FC5-B053-5935C0BA2E7B-
+bE58B44E8-CDE4-43F6-9596-099726E9478A
+
+CPhaseScriptExecution CMake\ Rules /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-E6B3C566307E4BCDBA3F77F5.sh
+s428395080.722203
+e428395080.780991
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-E6B3C566307E4BCDBA3F77F5.sh
+oecho "Automatic moc for target AntennaBuilder"
+oAutomatic moc for target AntennaBuilder
+ocd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /usr/local/Cellar/cmake/3.0.0/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'141"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-E6B3C566307E4BCDBA3F77F5.sh527fb948ca88b941^f6eec748ca88b941^-325"echo "Automatic moc for target AntennaBuilder"Automatic moc for target AntennaBuildercd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /usr/local/Cellar/cmake/3.0.0/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug3(21%IDEActivityLogMessage2@47"echo "Automatic moc for target AntennaBuilder"-428395080#0#47#-0#-----2@40"Automatic moc for target AntennaBuilder-428395080#47#40#-0#-----2@238"cd /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build && /usr/local/Cellar/cmake/3.0.0/bin/cmake -E cmake_autogen /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug-428395080#87#238#-0#-----0#0#1#--382"PhaseScriptExecution CMake\ Rules mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-E6B3C566307E4BCDBA3F77F5.sh    cd /Users/leon/Documents/projects/huawei_antenna_modeling    /bin/sh -c /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/HuaweiAntennaModeling.build/Debug/AntennaBuilder_automoc.build/Script-E6B3C566307E4BCDBA3F77F5.sh36"6A317588-D626-4953-A654-FE8D7B39AEA1-
+bE5C0CD29-337F-47EA-8C63-CE521DA95927
+

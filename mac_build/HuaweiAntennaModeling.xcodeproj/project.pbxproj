@@ -1,0 +1,1111 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              E0F7757D18C7480E8FC7A7E0 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 89CA8F49DDE94F7B971B8654 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            117C1D5AEB11479B9DE08535 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            7857FAEC4DCF49E391B6E95C /* PBXTargetDependency */,
+                            9549A32D3B484726BA8D8894 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              CC3FE5C980B644489C7C00D8 /* AntennaBuilder_automoc */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = C2FCAD93422B496D8A52D06E /* Build configuration list for PBXAggregateTarget "AntennaBuilder_automoc" */;
+                     buildPhases = (
+                            75CD2B073863414AB7289767 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = AntennaBuilder_automoc;
+                     productName = AntennaBuilder_automoc;
+              };
+              872588FD114D49C3A8CC50B3 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 02B269DA32734E4DB08E3852 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            3E6CAE1355C24DFBBDB75654 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+69E48D039EB84BE4A68F34E7 /* /Users/leon/Documents/projects/huawei_antenna_modeling/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F555A0CCB4A742DB8D41129F /* /Users/leon/Documents/projects/huawei_antenna_modeling/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+CC87275AA9FD4451AB7555F8 /* /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/AntennaBuilder_automoc.cpp */ = {isa = PBXBuildFile; fileRef = 71C8616A168447A0B6FFA882 /* /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/AntennaBuilder_automoc.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B802426F90BD4393B23C2E7D /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/AnduGLWidget.cpp */ = {isa = PBXBuildFile; fileRef = DDFE99A2185C4D26A792D80B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/AnduGLWidget.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2BF61536A5FC49419AB2D3D5 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Curve/Vectorizer.cpp */ = {isa = PBXBuildFile; fileRef = F3642AEBD2E04388BF961011 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Curve/Vectorizer.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C9F1BA289990406EB42CE7BA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHReader.cpp */ = {isa = PBXBuildFile; fileRef = 86D4FE0887174929A45EAB83 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHReader.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+88A6C65DF7814AABAD924862 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHWriter.cpp */ = {isa = PBXBuildFile; fileRef = C9B40643D38049CD83AF4C5B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHWriter.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A12DE9F9730B445EB36ED441 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/DataRW.cpp */ = {isa = PBXBuildFile; fileRef = 9C56F5EF050A405B94B62110 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/DataRW.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+ECDF661EBB414F1C9C362638 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionClip.cpp */ = {isa = PBXBuildFile; fileRef = 1F574410566C420790E3F7F4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionClip.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DF2C9C11E82E4E91B3459FB4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionJoint.cpp */ = {isa = PBXBuildFile; fileRef = CBB11FFDE84B4580B00975F7 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionJoint.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C63D31BF1D834E16B413D479 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionKeyframeSeries.cpp */ = {isa = PBXBuildFile; fileRef = 66240F9878EF48F6AE9071EE /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionKeyframeSeries.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F89847EBD0E84623A89EA7E0 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/SerialTextDataReader.cpp */ = {isa = PBXBuildFile; fileRef = 734C3ED38E704DF7A98D2C7E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/SerialTextDataReader.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+FCB46C1B69A546E897EEBFFF /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActLine.cpp */ = {isa = PBXBuildFile; fileRef = B46F850C806D4448AAE9D012 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActLine.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D86718327C3349F1B38AD192 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActLinePair.cpp */ = {isa = PBXBuildFile; fileRef = 2EA1D5066FB1439180F3FF15 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActLinePair.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3B7292E966B348C4995C55D2 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActPolygon.cpp */ = {isa = PBXBuildFile; fileRef = 330013E3A27A489BA8BD18EF /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActPolygon.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+17595AA003F4486C8BE5B2D2 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ItemSpace.cpp */ = {isa = PBXBuildFile; fileRef = 470946AFEB3543E88FFF0AC4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ItemSpace.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+22D0AF447DF74A4985C729DE /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/MidSpace.cpp */ = {isa = PBXBuildFile; fileRef = 41C938246BE740D7973E5401 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/MidSpace.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B81754DD8C5B487A82832173 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/Nansy.cpp */ = {isa = PBXBuildFile; fileRef = 5437D03D96E545A2BE6F4223 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/Nansy.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7EC63C656A264F5CB59E035A /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/NansyMath.cpp */ = {isa = PBXBuildFile; fileRef = B192D81966E64A9EBF807D64 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/NansyMath.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+36530B8F97BD4D67B32B0423 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/NansyMenu.cpp */ = {isa = PBXBuildFile; fileRef = 4D8B3A36115945C0B4869A92 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/NansyMenu.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+09C7028CC6A74C9088673B99 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ObjReader.cpp */ = {isa = PBXBuildFile; fileRef = 13446574572D45D4A0825BB3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ObjReader.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+15271F37D23C43A89967238E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/PlaneEquation.cpp */ = {isa = PBXBuildFile; fileRef = 4042D816089E483594A11438 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/PlaneEquation.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D95B1C2C81DC41088C100B99 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/SandboxGLWidget.cpp */ = {isa = PBXBuildFile; fileRef = C33A01E5A28B42ECBAFC241C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/SandboxGLWidget.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3CAA257645C744FA9FCC16EC /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowDot.cpp */ = {isa = PBXBuildFile; fileRef = BF40324B6F1D4BB0A14D29AA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowDot.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C9F1F77F860346209C47DAA4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowLine.cpp */ = {isa = PBXBuildFile; fileRef = AAFB84C4322E4271B47199BB /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowLine.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+81B8BC478CED44A19ACDC858 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowPolygon.cpp */ = {isa = PBXBuildFile; fileRef = 03BC0CDB2B9B4401BB186FF9 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowPolygon.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+02EDBBA448884806876574D0 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldDot.cpp */ = {isa = PBXBuildFile; fileRef = C34345AA0AE647FB90740D40 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldDot.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D184D14DDBCA4803876D9842 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp */ = {isa = PBXBuildFile; fileRef = C634F3BBD5E242BA9F1840EA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F177655BEA87461F8710B54C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldPolygon.cpp */ = {isa = PBXBuildFile; fileRef = BBD228BE1B164F41A6352FFA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldPolygon.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+AEB7A211E45E4E86BEC17A28 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/ComputeVector.cpp */ = {isa = PBXBuildFile; fileRef = 14801209F56F45CB9FFBB638 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/ComputeVector.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9610E8F9DF0F41C0AD61EE79 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Curve/Vectorizer.cpp */ = {isa = PBXBuildFile; fileRef = 766DFDA5E2E148D7BE90754A /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Curve/Vectorizer.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+68D733795125462AB49486AA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Line.cpp */ = {isa = PBXBuildFile; fileRef = FBF8C47699FC47ADA56DD8C3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Line.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5FA30A25024C4A5A88473FCB /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Mathematics.cpp */ = {isa = PBXBuildFile; fileRef = 1C1D4E7CE7624E41989FBB75 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Mathematics.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+71F64CDD98F44028A842419B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/MatrixTool.cpp */ = {isa = PBXBuildFile; fileRef = D5C58A91AD754E11BAE069CB /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/MatrixTool.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+192053D83257454CA9C54D5F /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Vector2Cmp.cpp */ = {isa = PBXBuildFile; fileRef = 555B3ADC35134352BD800348 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Vector2Cmp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1B1151DAF1AD42C9BF93E30D /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/SandboxGLWidget.cpp */ = {isa = PBXBuildFile; fileRef = 8DA44975E0384931A2C32436 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/SandboxGLWidget.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8662B80BDE8A4971902F784D /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/BaseLine.cpp */ = {isa = PBXBuildFile; fileRef = C683BAF609A24D61A37A2270 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/BaseLine.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+78B60ECC396849E4AB5C6B6C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ComputeMesh.cpp */ = {isa = PBXBuildFile; fileRef = 16B607BA3C444752AFA7FE82 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ComputeMesh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8F821004E95C489DB888FE16 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/EditableSubMesh.cpp */ = {isa = PBXBuildFile; fileRef = D4BB2A7E301B481599F9663F /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/EditableSubMesh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3A4C31C3BDAA4069A7B40E1A /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Element.cpp */ = {isa = PBXBuildFile; fileRef = D973CC17BE34458598E4AA59 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Element.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+00B788E3DBEA447791469BE4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/AnduMeshReader.cpp */ = {isa = PBXBuildFile; fileRef = 0F69D497327043BFAD1B1A17 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/AnduMeshReader.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+24BBF16132CE4C568E219E24 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/AnduObjReader.cpp */ = {isa = PBXBuildFile; fileRef = BDEE236B2CFE4666A5EC070C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/AnduObjReader.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1BCCAB9000404C3981CBC979 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/MeshReader.cpp */ = {isa = PBXBuildFile; fileRef = A196F138B63648EBB187BE61 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/MeshReader.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C701FD41A67141A09CFAE0A3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/MeshWriter.cpp */ = {isa = PBXBuildFile; fileRef = 525F3AB29B2743969D2D5B9F /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/MeshWriter.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+11F71755DACB419CB2F05390 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/ObjReader.cpp */ = {isa = PBXBuildFile; fileRef = 3CD2A1DB8F704FCEBCA18D03 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/ObjReader.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7DABB2C0FE0C4F0EA548531F /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/SubMeshReader.cpp */ = {isa = PBXBuildFile; fileRef = 3A98BCB8F65E476AB656949E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/SubMeshReader.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+8DE7500BCD2249658BB87CFA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/SubMeshWriter.cpp */ = {isa = PBXBuildFile; fileRef = B92437C80C25450D9933FBA3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/SubMeshWriter.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7F997542F9074FB9825A5D67 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Mesh.cpp */ = {isa = PBXBuildFile; fileRef = C8F56BC528C948D6B47ADF3B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Mesh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+90BA61E67EAE4C53A469B7F2 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshSerializer.cpp */ = {isa = PBXBuildFile; fileRef = 61EC008CADDF406FB8D6E75E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshSerializer.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+FD18BEC364BF4ACA8E8C85CC /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshToolbox.cpp */ = {isa = PBXBuildFile; fileRef = F504B06B7FE54001B97C04BD /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshToolbox.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1431A9FD89644B3C8CF4223E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshVertexData.cpp */ = {isa = PBXBuildFile; fileRef = 54C38B23F7A54C288A2216F9 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshVertexData.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+94F44F65AE8C422ABE0A7DB4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp */ = {isa = PBXBuildFile; fileRef = A5963ECD9DDA4226A2366680 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9073498F5C914D5EB5BECB0E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Skeleton.cpp */ = {isa = PBXBuildFile; fileRef = 70789D7927C04D9EAFBAF26C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Skeleton.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9DF37FD0C7E947F6B409CB48 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/SubMesh.cpp */ = {isa = PBXBuildFile; fileRef = 19EC4AB6039C413886822F3C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/SubMesh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C0A2E469706B4BECBF0B94A0 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/VertexBoneAssignmentData.cpp */ = {isa = PBXBuildFile; fileRef = B48C024785D34AEA9F1EDD16 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/VertexBoneAssignmentData.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+792266E319D94DDBACCE5665 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ViewDefinition.cpp */ = {isa = PBXBuildFile; fileRef = 2F22FAF489484E7CBEA4FC41 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ViewDefinition.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+482913BB01184B1FBC02389C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp */ = {isa = PBXBuildFile; fileRef = 538F797E4B094538A5184C7E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+23DB68D5DD814A1E90992A49 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ConsoleToolbox.cpp */ = {isa = PBXBuildFile; fileRef = BD8E776BDE7F46579D10EA73 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ConsoleToolbox.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+720BE3A6520B43E29AD710CC /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/LogWriter.cpp */ = {isa = PBXBuildFile; fileRef = 0EB20E87B622488691AF0332 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/LogWriter.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+9D918621A55046CF94B46FF0 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/OpenGLToolbox.cpp */ = {isa = PBXBuildFile; fileRef = 155CF44C7E784356BF20F053 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/OpenGLToolbox.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B737B1C782FD4741AAE536A6 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp */ = {isa = PBXBuildFile; fileRef = E05D54385E074393B26C7A65 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A74A5CDD43184E13ABC5CBA7 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp */ = {isa = PBXBuildFile; fileRef = 4E7D8F59E5B24FB98A0A4E49 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6FF19EB19CEF4CBCA5E55C9B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 6A8E52ABD2E744F3BE27E971 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+339B19C39EE44A29873829BA /* /Users/leon/Documents/projects/huawei_antenna_modeling/ui/antennaglwidget.cpp */ = {isa = PBXBuildFile; fileRef = 14B8B98B6B784A8DA4B3CF49 /* /Users/leon/Documents/projects/huawei_antenna_modeling/ui/antennaglwidget.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+27FE91C5CB2B473694A042CB /* /Users/leon/Documents/projects/huawei_antenna_modeling/ui/mainwindow.cpp */ = {isa = PBXBuildFile; fileRef = 69642C3244A44DA38F99D092 /* /Users/leon/Documents/projects/huawei_antenna_modeling/ui/mainwindow.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              289025AB2ABA4C738157D9DF /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              46D4D2D03AAD42AD937614FB /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              C2858D36D45C41E88E654BE1 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              4C936B7169634A02A6B30D35 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              01C9F4AD76804AA7A2988FB5 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              DCA06711B53A42C6860DD495 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4C10D54B9FD7426E882FC5C8 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2423EA1D5531483D967C43B5;
+                     remoteInfo = AntennaBuilder;
+              };
+              877DEB09C7D84F38A722417A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4C10D54B9FD7426E882FC5C8 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 872588FD114D49C3A8CC50B3;
+                     remoteInfo = ZERO_CHECK;
+              };
+              22910A03566B4595B3A7FB75 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4C10D54B9FD7426E882FC5C8 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 872588FD114D49C3A8CC50B3;
+                     remoteInfo = ZERO_CHECK;
+              };
+              3708233C7E944390BDD59B6C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 4C10D54B9FD7426E882FC5C8 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CC3FE5C980B644489C7C00D8;
+                     remoteInfo = AntennaBuilder_automoc;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+F555A0CCB4A742DB8D41129F /* /Users/leon/Documents/projects/huawei_antenna_modeling/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+71C8616A168447A0B6FFA882 /* /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/AntennaBuilder_automoc.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "AntennaBuilder_automoc.cpp"; path = "mac_build/AntennaBuilder_automoc.cpp"; sourceTree = SOURCE_ROOT; };
+DDFE99A2185C4D26A792D80B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/AnduGLWidget.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "AnduGLWidget.cpp"; path = "src/AnduGLWidget.cpp"; sourceTree = SOURCE_ROOT; };
+F3642AEBD2E04388BF961011 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Curve/Vectorizer.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Vectorizer.cpp"; path = "src/Curve/Vectorizer.cpp"; sourceTree = SOURCE_ROOT; };
+86D4FE0887174929A45EAB83 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHReader.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "BVHReader.cpp"; path = "src/MocapIO/BVHReader.cpp"; sourceTree = SOURCE_ROOT; };
+C9B40643D38049CD83AF4C5B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHWriter.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "BVHWriter.cpp"; path = "src/MocapIO/BVHWriter.cpp"; sourceTree = SOURCE_ROOT; };
+9C56F5EF050A405B94B62110 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/DataRW.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "DataRW.cpp"; path = "src/MocapIO/DataRW.cpp"; sourceTree = SOURCE_ROOT; };
+1F574410566C420790E3F7F4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionClip.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MotionClip.cpp"; path = "src/MocapIO/MotionClip.cpp"; sourceTree = SOURCE_ROOT; };
+CBB11FFDE84B4580B00975F7 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionJoint.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MotionJoint.cpp"; path = "src/MocapIO/MotionJoint.cpp"; sourceTree = SOURCE_ROOT; };
+66240F9878EF48F6AE9071EE /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionKeyframeSeries.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MotionKeyframeSeries.cpp"; path = "src/MocapIO/MotionKeyframeSeries.cpp"; sourceTree = SOURCE_ROOT; };
+734C3ED38E704DF7A98D2C7E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/SerialTextDataReader.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "SerialTextDataReader.cpp"; path = "src/MocapIO/SerialTextDataReader.cpp"; sourceTree = SOURCE_ROOT; };
+B46F850C806D4448AAE9D012 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActLine.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ActLine.cpp"; path = "src/NansyLib/ActLine.cpp"; sourceTree = SOURCE_ROOT; };
+2EA1D5066FB1439180F3FF15 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActLinePair.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ActLinePair.cpp"; path = "src/NansyLib/ActLinePair.cpp"; sourceTree = SOURCE_ROOT; };
+330013E3A27A489BA8BD18EF /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActPolygon.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ActPolygon.cpp"; path = "src/NansyLib/ActPolygon.cpp"; sourceTree = SOURCE_ROOT; };
+470946AFEB3543E88FFF0AC4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ItemSpace.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ItemSpace.cpp"; path = "src/NansyLib/ItemSpace.cpp"; sourceTree = SOURCE_ROOT; };
+41C938246BE740D7973E5401 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/MidSpace.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MidSpace.cpp"; path = "src/NansyLib/MidSpace.cpp"; sourceTree = SOURCE_ROOT; };
+5437D03D96E545A2BE6F4223 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/Nansy.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Nansy.cpp"; path = "src/NansyLib/Nansy.cpp"; sourceTree = SOURCE_ROOT; };
+B192D81966E64A9EBF807D64 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/NansyMath.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "NansyMath.cpp"; path = "src/NansyLib/NansyMath.cpp"; sourceTree = SOURCE_ROOT; };
+4D8B3A36115945C0B4869A92 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/NansyMenu.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "NansyMenu.cpp"; path = "src/NansyLib/NansyMenu.cpp"; sourceTree = SOURCE_ROOT; };
+13446574572D45D4A0825BB3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ObjReader.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ObjReader.cpp"; path = "src/NansyLib/ObjReader.cpp"; sourceTree = SOURCE_ROOT; };
+4042D816089E483594A11438 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/PlaneEquation.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "PlaneEquation.cpp"; path = "src/NansyLib/PlaneEquation.cpp"; sourceTree = SOURCE_ROOT; };
+C33A01E5A28B42ECBAFC241C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/SandboxGLWidget.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "SandboxGLWidget.cpp"; path = "src/NansyLib/SandboxGLWidget.cpp"; sourceTree = SOURCE_ROOT; };
+BF40324B6F1D4BB0A14D29AA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowDot.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "WindowDot.cpp"; path = "src/NansyLib/WindowDot.cpp"; sourceTree = SOURCE_ROOT; };
+AAFB84C4322E4271B47199BB /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowLine.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "WindowLine.cpp"; path = "src/NansyLib/WindowLine.cpp"; sourceTree = SOURCE_ROOT; };
+03BC0CDB2B9B4401BB186FF9 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowPolygon.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "WindowPolygon.cpp"; path = "src/NansyLib/WindowPolygon.cpp"; sourceTree = SOURCE_ROOT; };
+C34345AA0AE647FB90740D40 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldDot.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "WorldDot.cpp"; path = "src/NansyLib/WorldDot.cpp"; sourceTree = SOURCE_ROOT; };
+C634F3BBD5E242BA9F1840EA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "WorldLine.cpp"; path = "src/NansyLib/WorldLine.cpp"; sourceTree = SOURCE_ROOT; };
+BBD228BE1B164F41A6352FFA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldPolygon.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "WorldPolygon.cpp"; path = "src/NansyLib/WorldPolygon.cpp"; sourceTree = SOURCE_ROOT; };
+14801209F56F45CB9FFBB638 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/ComputeVector.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ComputeVector.cpp"; path = "src/QuasarMath/ComputeVector.cpp"; sourceTree = SOURCE_ROOT; };
+766DFDA5E2E148D7BE90754A /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Curve/Vectorizer.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Vectorizer.cpp"; path = "src/QuasarMath/Curve/Vectorizer.cpp"; sourceTree = SOURCE_ROOT; };
+FBF8C47699FC47ADA56DD8C3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Line.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Line.cpp"; path = "src/QuasarMath/Line.cpp"; sourceTree = SOURCE_ROOT; };
+1C1D4E7CE7624E41989FBB75 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Mathematics.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Mathematics.cpp"; path = "src/QuasarMath/Mathematics.cpp"; sourceTree = SOURCE_ROOT; };
+D5C58A91AD754E11BAE069CB /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/MatrixTool.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MatrixTool.cpp"; path = "src/QuasarMath/MatrixTool.cpp"; sourceTree = SOURCE_ROOT; };
+555B3ADC35134352BD800348 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Vector2Cmp.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Vector2Cmp.cpp"; path = "src/QuasarMath/Vector2Cmp.cpp"; sourceTree = SOURCE_ROOT; };
+8DA44975E0384931A2C32436 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/SandboxGLWidget.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "SandboxGLWidget.cpp"; path = "src/SandboxGLWidget.cpp"; sourceTree = SOURCE_ROOT; };
+C683BAF609A24D61A37A2270 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/BaseLine.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "BaseLine.cpp"; path = "src/Skinning/BaseLine.cpp"; sourceTree = SOURCE_ROOT; };
+16B607BA3C444752AFA7FE82 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ComputeMesh.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ComputeMesh.cpp"; path = "src/Skinning/ComputeMesh.cpp"; sourceTree = SOURCE_ROOT; };
+D4BB2A7E301B481599F9663F /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/EditableSubMesh.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "EditableSubMesh.cpp"; path = "src/Skinning/EditableSubMesh.cpp"; sourceTree = SOURCE_ROOT; };
+D973CC17BE34458598E4AA59 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Element.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Element.cpp"; path = "src/Skinning/Element.cpp"; sourceTree = SOURCE_ROOT; };
+0F69D497327043BFAD1B1A17 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/AnduMeshReader.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "AnduMeshReader.cpp"; path = "src/Skinning/IO/AnduMeshReader.cpp"; sourceTree = SOURCE_ROOT; };
+BDEE236B2CFE4666A5EC070C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/AnduObjReader.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "AnduObjReader.cpp"; path = "src/Skinning/IO/AnduObjReader.cpp"; sourceTree = SOURCE_ROOT; };
+A196F138B63648EBB187BE61 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/MeshReader.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MeshReader.cpp"; path = "src/Skinning/IO/MeshReader.cpp"; sourceTree = SOURCE_ROOT; };
+525F3AB29B2743969D2D5B9F /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/MeshWriter.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MeshWriter.cpp"; path = "src/Skinning/IO/MeshWriter.cpp"; sourceTree = SOURCE_ROOT; };
+3CD2A1DB8F704FCEBCA18D03 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/ObjReader.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ObjReader.cpp"; path = "src/Skinning/IO/ObjReader.cpp"; sourceTree = SOURCE_ROOT; };
+3A98BCB8F65E476AB656949E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/SubMeshReader.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "SubMeshReader.cpp"; path = "src/Skinning/IO/SubMeshReader.cpp"; sourceTree = SOURCE_ROOT; };
+B92437C80C25450D9933FBA3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/SubMeshWriter.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "SubMeshWriter.cpp"; path = "src/Skinning/IO/SubMeshWriter.cpp"; sourceTree = SOURCE_ROOT; };
+C8F56BC528C948D6B47ADF3B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Mesh.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Mesh.cpp"; path = "src/Skinning/Mesh.cpp"; sourceTree = SOURCE_ROOT; };
+61EC008CADDF406FB8D6E75E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshSerializer.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MeshSerializer.cpp"; path = "src/Skinning/MeshSerializer.cpp"; sourceTree = SOURCE_ROOT; };
+F504B06B7FE54001B97C04BD /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshToolbox.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MeshToolbox.cpp"; path = "src/Skinning/MeshToolbox.cpp"; sourceTree = SOURCE_ROOT; };
+54C38B23F7A54C288A2216F9 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshVertexData.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "MeshVertexData.cpp"; path = "src/Skinning/MeshVertexData.cpp"; sourceTree = SOURCE_ROOT; };
+A5963ECD9DDA4226A2366680 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ModellingParam.cpp"; path = "src/Skinning/ModellingParam.cpp"; sourceTree = SOURCE_ROOT; };
+70789D7927C04D9EAFBAF26C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Skeleton.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Skeleton.cpp"; path = "src/Skinning/Skeleton.cpp"; sourceTree = SOURCE_ROOT; };
+19EC4AB6039C413886822F3C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/SubMesh.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "SubMesh.cpp"; path = "src/Skinning/SubMesh.cpp"; sourceTree = SOURCE_ROOT; };
+B48C024785D34AEA9F1EDD16 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/VertexBoneAssignmentData.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "VertexBoneAssignmentData.cpp"; path = "src/Skinning/VertexBoneAssignmentData.cpp"; sourceTree = SOURCE_ROOT; };
+2F22FAF489484E7CBEA4FC41 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ViewDefinition.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ViewDefinition.cpp"; path = "src/Skinning/ViewDefinition.cpp"; sourceTree = SOURCE_ROOT; };
+538F797E4B094538A5184C7E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ArrayToolBox.cpp"; path = "src/Util/ArrayToolBox.cpp"; sourceTree = SOURCE_ROOT; };
+BD8E776BDE7F46579D10EA73 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ConsoleToolbox.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ConsoleToolbox.cpp"; path = "src/Util/ConsoleToolbox.cpp"; sourceTree = SOURCE_ROOT; };
+0EB20E87B622488691AF0332 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/LogWriter.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "LogWriter.cpp"; path = "src/Util/LogWriter.cpp"; sourceTree = SOURCE_ROOT; };
+155CF44C7E784356BF20F053 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/OpenGLToolbox.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "OpenGLToolbox.cpp"; path = "src/Util/OpenGLToolbox.cpp"; sourceTree = SOURCE_ROOT; };
+E05D54385E074393B26C7A65 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Singleton.cpp"; path = "src/Util/Singleton.cpp"; sourceTree = SOURCE_ROOT; };
+4E7D8F59E5B24FB98A0A4E49 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "VectorToolBox.cpp"; path = "src/Util/VectorToolBox.cpp"; sourceTree = SOURCE_ROOT; };
+6A8E52ABD2E744F3BE27E971 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "main.cpp"; path = "src/main.cpp"; sourceTree = SOURCE_ROOT; };
+14B8B98B6B784A8DA4B3CF49 /* /Users/leon/Documents/projects/huawei_antenna_modeling/ui/antennaglwidget.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "antennaglwidget.cpp"; path = "ui/antennaglwidget.cpp"; sourceTree = SOURCE_ROOT; };
+69642C3244A44DA38F99D092 /* /Users/leon/Documents/projects/huawei_antenna_modeling/ui/mainwindow.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "mainwindow.cpp"; path = "ui/mainwindow.cpp"; sourceTree = SOURCE_ROOT; };
+66BAECA7E695496CB7CD8C51 /* AntennaBuilder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = AntennaBuilder; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              B47FF8759B6443D68BA791BE  = {
+                     isa = PBXGroup;
+                     children = (
+                            13773FF465EA4DA6887A1869 /* Sources */,
+                            1325BBF6FCCD46BFB0C2C741 /* Resources */,
+                            E96787E73FD740C2AE64C00F /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              13773FF465EA4DA6887A1869 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A928295C83314DC7AB03B4E0 /* ALL_BUILD */,
+                            5A7F6602F5F341E088AC03E9 /* AntennaBuilder */,
+                            EB52D3E0296740888EBA2A72 /* AntennaBuilder_automoc */,
+                            580A3CFB3F804E4D8B8744DF /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              1325BBF6FCCD46BFB0C2C741 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              A928295C83314DC7AB03B4E0 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6A91889680C24BA593B261AD /* CMake Rules */,
+                            F555A0CCB4A742DB8D41129F /* /Users/leon/Documents/projects/huawei_antenna_modeling/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              6A91889680C24BA593B261AD /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              5A7F6602F5F341E088AC03E9 /* AntennaBuilder */ = {
+                     isa = PBXGroup;
+                     children = (
+                            71EA18B060FD4C71B7AF8065 /* Source Files */,
+                            F555A0CCB4A742DB8D41129F /* /Users/leon/Documents/projects/huawei_antenna_modeling/CMakeLists.txt */,
+                     );
+                     name = AntennaBuilder;
+                     sourceTree = "<group>";
+              };
+              71EA18B060FD4C71B7AF8065 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            71C8616A168447A0B6FFA882 /* /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/AntennaBuilder_automoc.cpp */,
+                            DDFE99A2185C4D26A792D80B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/AnduGLWidget.cpp */,
+                            F3642AEBD2E04388BF961011 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Curve/Vectorizer.cpp */,
+                            86D4FE0887174929A45EAB83 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHReader.cpp */,
+                            C9B40643D38049CD83AF4C5B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHWriter.cpp */,
+                            9C56F5EF050A405B94B62110 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/DataRW.cpp */,
+                            1F574410566C420790E3F7F4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionClip.cpp */,
+                            CBB11FFDE84B4580B00975F7 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionJoint.cpp */,
+                            66240F9878EF48F6AE9071EE /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionKeyframeSeries.cpp */,
+                            734C3ED38E704DF7A98D2C7E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/SerialTextDataReader.cpp */,
+                            B46F850C806D4448AAE9D012 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActLine.cpp */,
+                            2EA1D5066FB1439180F3FF15 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActLinePair.cpp */,
+                            330013E3A27A489BA8BD18EF /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActPolygon.cpp */,
+                            470946AFEB3543E88FFF0AC4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ItemSpace.cpp */,
+                            41C938246BE740D7973E5401 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/MidSpace.cpp */,
+                            5437D03D96E545A2BE6F4223 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/Nansy.cpp */,
+                            B192D81966E64A9EBF807D64 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/NansyMath.cpp */,
+                            4D8B3A36115945C0B4869A92 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/NansyMenu.cpp */,
+                            13446574572D45D4A0825BB3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ObjReader.cpp */,
+                            4042D816089E483594A11438 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/PlaneEquation.cpp */,
+                            C33A01E5A28B42ECBAFC241C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/SandboxGLWidget.cpp */,
+                            BF40324B6F1D4BB0A14D29AA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowDot.cpp */,
+                            AAFB84C4322E4271B47199BB /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowLine.cpp */,
+                            03BC0CDB2B9B4401BB186FF9 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowPolygon.cpp */,
+                            C34345AA0AE647FB90740D40 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldDot.cpp */,
+                            C634F3BBD5E242BA9F1840EA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp */,
+                            BBD228BE1B164F41A6352FFA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldPolygon.cpp */,
+                            14801209F56F45CB9FFBB638 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/ComputeVector.cpp */,
+                            766DFDA5E2E148D7BE90754A /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Curve/Vectorizer.cpp */,
+                            FBF8C47699FC47ADA56DD8C3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Line.cpp */,
+                            1C1D4E7CE7624E41989FBB75 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Mathematics.cpp */,
+                            D5C58A91AD754E11BAE069CB /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/MatrixTool.cpp */,
+                            555B3ADC35134352BD800348 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Vector2Cmp.cpp */,
+                            8DA44975E0384931A2C32436 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/SandboxGLWidget.cpp */,
+                            C683BAF609A24D61A37A2270 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/BaseLine.cpp */,
+                            16B607BA3C444752AFA7FE82 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ComputeMesh.cpp */,
+                            D4BB2A7E301B481599F9663F /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/EditableSubMesh.cpp */,
+                            D973CC17BE34458598E4AA59 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Element.cpp */,
+                            0F69D497327043BFAD1B1A17 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/AnduMeshReader.cpp */,
+                            BDEE236B2CFE4666A5EC070C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/AnduObjReader.cpp */,
+                            A196F138B63648EBB187BE61 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/MeshReader.cpp */,
+                            525F3AB29B2743969D2D5B9F /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/MeshWriter.cpp */,
+                            3CD2A1DB8F704FCEBCA18D03 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/ObjReader.cpp */,
+                            3A98BCB8F65E476AB656949E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/SubMeshReader.cpp */,
+                            B92437C80C25450D9933FBA3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/SubMeshWriter.cpp */,
+                            C8F56BC528C948D6B47ADF3B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Mesh.cpp */,
+                            61EC008CADDF406FB8D6E75E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshSerializer.cpp */,
+                            F504B06B7FE54001B97C04BD /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshToolbox.cpp */,
+                            54C38B23F7A54C288A2216F9 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshVertexData.cpp */,
+                            A5963ECD9DDA4226A2366680 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp */,
+                            70789D7927C04D9EAFBAF26C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Skeleton.cpp */,
+                            19EC4AB6039C413886822F3C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/SubMesh.cpp */,
+                            B48C024785D34AEA9F1EDD16 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/VertexBoneAssignmentData.cpp */,
+                            2F22FAF489484E7CBEA4FC41 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ViewDefinition.cpp */,
+                            538F797E4B094538A5184C7E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp */,
+                            BD8E776BDE7F46579D10EA73 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ConsoleToolbox.cpp */,
+                            0EB20E87B622488691AF0332 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/LogWriter.cpp */,
+                            155CF44C7E784356BF20F053 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/OpenGLToolbox.cpp */,
+                            E05D54385E074393B26C7A65 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp */,
+                            4E7D8F59E5B24FB98A0A4E49 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp */,
+                            6A8E52ABD2E744F3BE27E971 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/main.cpp */,
+                            14B8B98B6B784A8DA4B3CF49 /* /Users/leon/Documents/projects/huawei_antenna_modeling/ui/antennaglwidget.cpp */,
+                            69642C3244A44DA38F99D092 /* /Users/leon/Documents/projects/huawei_antenna_modeling/ui/mainwindow.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              EB52D3E0296740888EBA2A72 /* AntennaBuilder_automoc */ = {
+                     isa = PBXGroup;
+                     children = (
+                            0E0BA9C6D1C84F32B1C283E5 /* CMake Rules */,
+                     );
+                     name = AntennaBuilder_automoc;
+                     sourceTree = "<group>";
+              };
+              0E0BA9C6D1C84F32B1C283E5 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              580A3CFB3F804E4D8B8744DF /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B3222D09C0A64A0DBCB6BCF4 /* CMake Rules */,
+                            F555A0CCB4A742DB8D41129F /* /Users/leon/Documents/projects/huawei_antenna_modeling/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              B3222D09C0A64A0DBCB6BCF4 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              E96787E73FD740C2AE64C00F /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            66BAECA7E695496CB7CD8C51 /* AntennaBuilder */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              2423EA1D5531483D967C43B5 /* AntennaBuilder */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 924C39D41E224C09A4FC07B5 /* Build configuration list for PBXNativeTarget "AntennaBuilder" */;
+                     buildPhases = (
+                            14BB3FBDD0144761A9888FE8 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            24614BD1489E4BFCBAD31CF2 /* PBXTargetDependency */,
+                            5EE93307AAA248BDBAC7E10D /* PBXTargetDependency */,
+                     );
+                     name = AntennaBuilder;
+                     productName = AntennaBuilder;
+                     productReference = 66BAECA7E695496CB7CD8C51 /* AntennaBuilder */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              4C10D54B9FD7426E882FC5C8 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = BB64172AA08B416D99BB4864 /* Build configuration list for PBXProject  "HuaweiAntennaModeling" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            46D4D2D03AAD42AD937614FB /* Debug */,
+                            C2858D36D45C41E88E654BE1 /* Release */,
+                            4C936B7169634A02A6B30D35 /* MinSizeRel */,
+                            01C9F4AD76804AA7A2988FB5 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = B47FF8759B6443D68BA791BE;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            E0F7757D18C7480E8FC7A7E0 /* ALL_BUILD */,
+                            2423EA1D5531483D967C43B5 /* AntennaBuilder */,
+                            CC3FE5C980B644489C7C00D8 /* AntennaBuilder_automoc */,
+                            872588FD114D49C3A8CC50B3 /* ZERO_CHECK */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              43ED47FE53104D7A8E135E20 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              117C1D5AEB11479B9DE08535 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build -f /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              531F6ED1B30E481C8E9DCEA7 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              75CD2B073863414AB7289767 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build -f /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeScripts/AntennaBuilder_automoc_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              34C31F75D4914EA89407035F /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              3E6CAE1355C24DFBBDB75654 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build -f /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              14BB3FBDD0144761A9888FE8 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            CC87275AA9FD4451AB7555F8 /* /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/AntennaBuilder_automoc.cpp */,
+                            B802426F90BD4393B23C2E7D /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/AnduGLWidget.cpp */,
+                            2BF61536A5FC49419AB2D3D5 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Curve/Vectorizer.cpp */,
+                            C9F1BA289990406EB42CE7BA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHReader.cpp */,
+                            88A6C65DF7814AABAD924862 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/BVHWriter.cpp */,
+                            A12DE9F9730B445EB36ED441 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/DataRW.cpp */,
+                            ECDF661EBB414F1C9C362638 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionClip.cpp */,
+                            DF2C9C11E82E4E91B3459FB4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionJoint.cpp */,
+                            C63D31BF1D834E16B413D479 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/MotionKeyframeSeries.cpp */,
+                            F89847EBD0E84623A89EA7E0 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/MocapIO/SerialTextDataReader.cpp */,
+                            FCB46C1B69A546E897EEBFFF /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActLine.cpp */,
+                            D86718327C3349F1B38AD192 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActLinePair.cpp */,
+                            3B7292E966B348C4995C55D2 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ActPolygon.cpp */,
+                            17595AA003F4486C8BE5B2D2 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ItemSpace.cpp */,
+                            22D0AF447DF74A4985C729DE /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/MidSpace.cpp */,
+                            B81754DD8C5B487A82832173 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/Nansy.cpp */,
+                            7EC63C656A264F5CB59E035A /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/NansyMath.cpp */,
+                            36530B8F97BD4D67B32B0423 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/NansyMenu.cpp */,
+                            09C7028CC6A74C9088673B99 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/ObjReader.cpp */,
+                            15271F37D23C43A89967238E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/PlaneEquation.cpp */,
+                            D95B1C2C81DC41088C100B99 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/SandboxGLWidget.cpp */,
+                            3CAA257645C744FA9FCC16EC /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowDot.cpp */,
+                            C9F1F77F860346209C47DAA4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowLine.cpp */,
+                            81B8BC478CED44A19ACDC858 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WindowPolygon.cpp */,
+                            02EDBBA448884806876574D0 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldDot.cpp */,
+                            D184D14DDBCA4803876D9842 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldLine.cpp */,
+                            F177655BEA87461F8710B54C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/NansyLib/WorldPolygon.cpp */,
+                            AEB7A211E45E4E86BEC17A28 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/ComputeVector.cpp */,
+                            9610E8F9DF0F41C0AD61EE79 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Curve/Vectorizer.cpp */,
+                            68D733795125462AB49486AA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Line.cpp */,
+                            5FA30A25024C4A5A88473FCB /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Mathematics.cpp */,
+                            71F64CDD98F44028A842419B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/MatrixTool.cpp */,
+                            192053D83257454CA9C54D5F /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/QuasarMath/Vector2Cmp.cpp */,
+                            1B1151DAF1AD42C9BF93E30D /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/SandboxGLWidget.cpp */,
+                            8662B80BDE8A4971902F784D /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/BaseLine.cpp */,
+                            78B60ECC396849E4AB5C6B6C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ComputeMesh.cpp */,
+                            8F821004E95C489DB888FE16 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/EditableSubMesh.cpp */,
+                            3A4C31C3BDAA4069A7B40E1A /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Element.cpp */,
+                            00B788E3DBEA447791469BE4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/AnduMeshReader.cpp */,
+                            24BBF16132CE4C568E219E24 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/AnduObjReader.cpp */,
+                            1BCCAB9000404C3981CBC979 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/MeshReader.cpp */,
+                            C701FD41A67141A09CFAE0A3 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/MeshWriter.cpp */,
+                            11F71755DACB419CB2F05390 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/ObjReader.cpp */,
+                            7DABB2C0FE0C4F0EA548531F /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/SubMeshReader.cpp */,
+                            8DE7500BCD2249658BB87CFA /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/IO/SubMeshWriter.cpp */,
+                            7F997542F9074FB9825A5D67 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Mesh.cpp */,
+                            90BA61E67EAE4C53A469B7F2 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshSerializer.cpp */,
+                            FD18BEC364BF4ACA8E8C85CC /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshToolbox.cpp */,
+                            1431A9FD89644B3C8CF4223E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/MeshVertexData.cpp */,
+                            94F44F65AE8C422ABE0A7DB4 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ModellingParam.cpp */,
+                            9073498F5C914D5EB5BECB0E /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/Skeleton.cpp */,
+                            9DF37FD0C7E947F6B409CB48 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/SubMesh.cpp */,
+                            C0A2E469706B4BECBF0B94A0 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/VertexBoneAssignmentData.cpp */,
+                            792266E319D94DDBACCE5665 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Skinning/ViewDefinition.cpp */,
+                            482913BB01184B1FBC02389C /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ArrayToolBox.cpp */,
+                            23DB68D5DD814A1E90992A49 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/ConsoleToolbox.cpp */,
+                            720BE3A6520B43E29AD710CC /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/LogWriter.cpp */,
+                            9D918621A55046CF94B46FF0 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/OpenGLToolbox.cpp */,
+                            B737B1C782FD4741AAE536A6 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/Singleton.cpp */,
+                            A74A5CDD43184E13ABC5CBA7 /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/Util/VectorToolBox.cpp */,
+                            6FF19EB19CEF4CBCA5E55C9B /* /Users/leon/Documents/projects/huawei_antenna_modeling/src/main.cpp */,
+                            339B19C39EE44A29873829BA /* /Users/leon/Documents/projects/huawei_antenna_modeling/ui/antennaglwidget.cpp */,
+                            27FE91C5CB2B473694A042CB /* /Users/leon/Documents/projects/huawei_antenna_modeling/ui/mainwindow.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              7857FAEC4DCF49E391B6E95C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2423EA1D5531483D967C43B5 /* AntennaBuilder */;
+                     targetProxy = DCA06711B53A42C6860DD495 /* PBXContainerItemProxy */;
+              };
+              9549A32D3B484726BA8D8894 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 872588FD114D49C3A8CC50B3 /* ZERO_CHECK */;
+                     targetProxy = 877DEB09C7D84F38A722417A /* PBXContainerItemProxy */;
+              };
+              24614BD1489E4BFCBAD31CF2 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 872588FD114D49C3A8CC50B3 /* ZERO_CHECK */;
+                     targetProxy = 22910A03566B4595B3A7FB75 /* PBXContainerItemProxy */;
+              };
+              5EE93307AAA248BDBAC7E10D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CC3FE5C980B644489C7C00D8 /* AntennaBuilder_automoc */;
+                     targetProxy = 3708233C7E944390BDD59B6C /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              387888F6F35F4EDFB227BC05 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/build;
+                     };
+                     name = Debug;
+              };
+              5ED86842B6394E3CB8959F31 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/build;
+                     };
+                     name = Release;
+              };
+              406318A09BE5489A8749729E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/build;
+                     };
+                     name = MinSizeRel;
+              };
+              0C68E686C1ED4A8DA45E6F6D /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              3C95A3F70C884ED985C6BBCE /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              620B6DCD63B64F3CA1F279B5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              8643DF14E43E44489221669E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              AB9B103A75C54DB18AD511CC /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              007BC08F3AB14E6A98169E6B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = ("/Applications/Qt/5.3/clang_64/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_WIDGETS_LIB, QT_GUI_LIB, QT_CORE_LIB, QT_OPENGL_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, "/Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/Headers", "/Applications/Qt/5.3/clang_64/lib/QtGui.framework/Headers", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers", "/Applications/Qt/5.3/clang_64/lib/QtCore.framework/Headers", "/Applications/Qt/5.3/clang_64/mkspecs/macx-clang", "/Applications/Qt/5.3/clang_64/lib/QtOpenGL.framework/Headers", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/QtWidgets /Applications/Qt/5.3/clang_64/lib/QtOpenGL.framework/QtOpenGL /Applications/Qt/5.3/clang_64/lib/QtCore.framework/QtCore /Applications/Qt/5.3/clang_64/lib/QtGui.framework/QtGui /Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/QtWidgets /Applications/Qt/5.3/clang_64/lib/QtGui.framework/QtGui /Applications/Qt/5.3/clang_64/lib/QtCore.framework/QtCore";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AntennaBuilder;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              ACCB8B1BD12E475CBE9D4613 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = ("/Applications/Qt/5.3/clang_64/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_WIDGETS_LIB, QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, QT_OPENGL_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, "/Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/Headers", "/Applications/Qt/5.3/clang_64/lib/QtGui.framework/Headers", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers", "/Applications/Qt/5.3/clang_64/lib/QtCore.framework/Headers", "/Applications/Qt/5.3/clang_64/mkspecs/macx-clang", "/Applications/Qt/5.3/clang_64/lib/QtOpenGL.framework/Headers", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/QtWidgets /Applications/Qt/5.3/clang_64/lib/QtOpenGL.framework/QtOpenGL /Applications/Qt/5.3/clang_64/lib/QtCore.framework/QtCore /Applications/Qt/5.3/clang_64/lib/QtGui.framework/QtGui /Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/QtWidgets /Applications/Qt/5.3/clang_64/lib/QtGui.framework/QtGui /Applications/Qt/5.3/clang_64/lib/QtCore.framework/QtCore";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AntennaBuilder;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              781BF31B0CED4C8981E9B2E0 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = ("/Applications/Qt/5.3/clang_64/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_WIDGETS_LIB, QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, QT_OPENGL_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, "/Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/Headers", "/Applications/Qt/5.3/clang_64/lib/QtGui.framework/Headers", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers", "/Applications/Qt/5.3/clang_64/lib/QtCore.framework/Headers", "/Applications/Qt/5.3/clang_64/mkspecs/macx-clang", "/Applications/Qt/5.3/clang_64/lib/QtOpenGL.framework/Headers", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/QtWidgets /Applications/Qt/5.3/clang_64/lib/QtOpenGL.framework/QtOpenGL /Applications/Qt/5.3/clang_64/lib/QtCore.framework/QtCore /Applications/Qt/5.3/clang_64/lib/QtGui.framework/QtGui /Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/QtWidgets /Applications/Qt/5.3/clang_64/lib/QtGui.framework/QtGui /Applications/Qt/5.3/clang_64/lib/QtCore.framework/QtCore";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AntennaBuilder;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              68DE1A0C8BE44D01915ABB1C /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            FRAMEWORK_SEARCH_PATHS = ("/Applications/Qt/5.3/clang_64/lib", );
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", QT_WIDGETS_LIB, QT_GUI_LIB, QT_CORE_LIB, QT_NO_DEBUG, QT_OPENGL_LIB, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, "/Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/Headers", "/Applications/Qt/5.3/clang_64/lib/QtGui.framework/Headers", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers", "/Applications/Qt/5.3/clang_64/lib/QtCore.framework/Headers", "/Applications/Qt/5.3/clang_64/mkspecs/macx-clang", "/Applications/Qt/5.3/clang_64/lib/QtOpenGL.framework/Headers", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/QtWidgets /Applications/Qt/5.3/clang_64/lib/QtOpenGL.framework/QtOpenGL /Applications/Qt/5.3/clang_64/lib/QtCore.framework/QtCore /Applications/Qt/5.3/clang_64/lib/QtGui.framework/QtGui /Applications/Qt/5.3/clang_64/lib/QtWidgets.framework/QtWidgets /Applications/Qt/5.3/clang_64/lib/QtGui.framework/QtGui /Applications/Qt/5.3/clang_64/lib/QtCore.framework/QtCore";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AntennaBuilder;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              90247F0906F24813AD868D56 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AntennaBuilder_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              750A47FA18224D61B203836E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AntennaBuilder_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              13657FFEF89342799A1E5A05 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AntennaBuilder_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              BC6B834CB38740ACB48FF7B6 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = AntennaBuilder_automoc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              BA9BA30F7826426A8F0F7AD0 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              4A9EEE472F1B451A9ECF311A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              D67E4099B0674FBB82C5F868 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              018E888BDC4F46C1B43389CA /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/leon/Documents/projects/huawei_antenna_modeling/mac_build, /Users/leon/Documents/projects/huawei_antenna_modeling, /Users/leon/Documents/projects/huawei_antenna_modeling/include, "/Users/leon/Documents/projects/huawei_antenna_modeling/./src", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/MocapIO", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/NansyLib", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/QuasarMath/Curve", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Skinning", "/Users/leon/Documents/projects/huawei_antenna_modeling/./src/Util", /Users/leon/Documents/projects/huawei_antenna_modeling/ui, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/leon/Documents/projects/huawei_antenna_modeling/mac_build;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              BB64172AA08B416D99BB4864 /* Build configuration list for PBXProject  "HuaweiAntennaModeling" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            387888F6F35F4EDFB227BC05 /* Debug */,
+                            5ED86842B6394E3CB8959F31 /* Release */,
+                            406318A09BE5489A8749729E /* MinSizeRel */,
+                            0C68E686C1ED4A8DA45E6F6D /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              89CA8F49DDE94F7B971B8654 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3C95A3F70C884ED985C6BBCE /* Debug */,
+                            620B6DCD63B64F3CA1F279B5 /* Release */,
+                            8643DF14E43E44489221669E /* MinSizeRel */,
+                            AB9B103A75C54DB18AD511CC /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              924C39D41E224C09A4FC07B5 /* Build configuration list for PBXNativeTarget "AntennaBuilder" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            007BC08F3AB14E6A98169E6B /* Debug */,
+                            ACCB8B1BD12E475CBE9D4613 /* Release */,
+                            781BF31B0CED4C8981E9B2E0 /* MinSizeRel */,
+                            68DE1A0C8BE44D01915ABB1C /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C2FCAD93422B496D8A52D06E /* Build configuration list for PBXAggregateTarget "AntennaBuilder_automoc" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            90247F0906F24813AD868D56 /* Debug */,
+                            750A47FA18224D61B203836E /* Release */,
+                            13657FFEF89342799A1E5A05 /* MinSizeRel */,
+                            BC6B834CB38740ACB48FF7B6 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              02B269DA32734E4DB08E3852 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            BA9BA30F7826426A8F0F7AD0 /* Debug */,
+                            4A9EEE472F1B451A9ECF311A /* Release */,
+                            D67E4099B0674FBB82C5F868 /* MinSizeRel */,
+                            018E888BDC4F46C1B43389CA /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 4C10D54B9FD7426E882FC5C8;
+}
