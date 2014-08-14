@@ -5,9 +5,9 @@
 #include <vector>
 #include "Vector3Cmp.h"
 #include "ComputeMesh.h"
-#include "..\src\corelib\tools\qsize.h"
-#include "..\src\corelib\tools\qstringlist.h"
-#include "..\src\gui\painting\qpainter.h"
+#include <QSize>
+#include <QStringList>
+#include <QPainter>
 
 using std::map;
 using std::vector;

@@ -2,7 +2,7 @@
 #define MESHWRITER_H
 
 #include "mfacommon.h"
-#include "..\src\corelib\tools\qstring.h"
+#include  <QString>
 
 namespace Caca
 {

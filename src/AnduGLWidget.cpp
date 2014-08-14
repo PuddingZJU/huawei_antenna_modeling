@@ -4,7 +4,7 @@
 #include "MeshVertexData.h"
 #include "submesh.h"
 #include <GL\glut.h>
-#include "..\src\gui\kernel\qevent.h"
+#include "qevent.h"
 
 using namespace Andu;
 using namespace Caca;

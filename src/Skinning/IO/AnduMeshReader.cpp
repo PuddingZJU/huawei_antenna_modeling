@@ -1,6 +1,6 @@
 #include "AnduMeshReader.h"
 #include "Mesh.h"
-#include "..\src\corelib\io\qfileinfo.h"
+#include "qfileinfo.h"
 #include "AnduObjReader.h"
 #include "IO\MeshReader.h"
 #include "SubMesh.h"

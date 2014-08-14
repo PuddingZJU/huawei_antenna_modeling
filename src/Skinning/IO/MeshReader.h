@@ -1,5 +1,5 @@
 #include "mfacommon.h"
-#include "..\src\corelib\tools\qstring.h"
+#include <QString>
 #ifndef MESHREADER_H
 #define MESHREADER_H
 

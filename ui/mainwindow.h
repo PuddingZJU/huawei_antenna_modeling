@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "antennaglwidget.h"
 namespace Ui {
 class MainWindow;
 }
@@ -14,7 +13,6 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
-    AntennaGLWidget *antennaGLWidget;
 private:
     Ui::MainWindow *ui;
 };

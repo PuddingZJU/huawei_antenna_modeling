@@ -4,7 +4,7 @@
 
 
 
-Nansy::Nansy(QWidget *parent, Qt::WFlags flags)
+Nansy::Nansy(QWidget *parent, Qt::WindowFlags flags)
 	: QWidget(parent, flags)
 	, mPressedButton(Qt::NoButton)
 	, mPressX(0)

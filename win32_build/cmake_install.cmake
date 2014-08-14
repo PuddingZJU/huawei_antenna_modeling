@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/leon/Desktop/huawei_antenna_modeling
+# Install script for directory: D:/Projects/huawei_antenna_modeling
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "C:/Users/leon/Desktop/huawei_antenna_modeling/build/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "D:/Projects/huawei_antenna_modeling/win32_build/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "C:/Users/leon/Desktop/huawei_antenna_modeling/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "D:/Projects/huawei_antenna_modeling/win32_build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()

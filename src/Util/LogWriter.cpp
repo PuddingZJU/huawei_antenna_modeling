@@ -1,9 +1,9 @@
 #include "LogWriter.h"
 #include "qstringlist.h"
 #include "qdatetime.h"
-#include "..\src\corelib\io\qdir.h"
-#include "..\src\corelib\kernel\qcoreapplication.h"
-#include "..\src\corelib\io\qfileinfo.h"
+#include "qdir.h"
+#include "qcoreapplication.h"
+#include "qfileinfo.h"
 
 LogWriter::LogWriter()
 : QThread(0)

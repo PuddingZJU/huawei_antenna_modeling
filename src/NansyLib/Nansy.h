@@ -19,7 +19,7 @@ class Nansy : public QWidget
 	Q_OBJECT
 
 public:
-	Nansy(QWidget *parent = 0, Qt::WFlags flags = 0);
+	Nansy(QWidget *parent = 0, Qt::WindowFlags flags = 0);
 	~Nansy();
 
 private:

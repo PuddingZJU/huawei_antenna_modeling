@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="Windows-1252"?>
+<?xml version="1.0" encoding="us-ascii"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{96C9F090-D12A-4FFA-BF9D-B97E0E51A48F}</ProjectGUID>
+    <ProjectGUID>{889A541E-433F-489F-B5B2-6EF1DDE5306F}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>AntennaBuilder</ProjectName>
@@ -53,38 +53,39 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\leon\Desktop\huawei_antenna_modeling\build\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AntennaBuilder.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AntennaBuilder</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\leon\Desktop\huawei_antenna_modeling\build\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AntennaBuilder.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AntennaBuilder</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\leon\Desktop\huawei_antenna_modeling\build\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">AntennaBuilder.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">AntennaBuilder</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\leon\Desktop\huawei_antenna_modeling\build\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">AntennaBuilder.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">AntennaBuilder</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Projects\huawei_antenna_modeling\win32_build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AntennaBuilder.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AntennaBuilder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Projects\huawei_antenna_modeling\win32_build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AntennaBuilder.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AntennaBuilder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Projects\huawei_antenna_modeling\win32_build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">AntennaBuilder.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">AntennaBuilder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Projects\huawei_antenna_modeling\win32_build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">AntennaBuilder.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">AntennaBuilder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -98,13 +99,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <AdditionalOptions>/DNOMINMAX %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,11 +116,11 @@
     <PreBuildEvent>
       <Message>Automatic moc for target AntennaBuilder</Message>
       <Command>setlocal
-cd C:\Users\leon\Desktop\huawei_antenna_modeling\build
+cd D:\Projects\huawei_antenna_modeling\win32_build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/leon/Desktop/huawei_antenna_modeling/build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/AntennaBuilder_automoc.dir/ Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -132,10 +134,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgetsd.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5OpenGLd.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Cored.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Guid.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgetsd.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Guid.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Cored.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>C:/Users/leon/Desktop/huawei_antenna_modeling/build/Debug/AntennaBuilder.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/leon/Desktop/huawei_antenna_modeling/build/Debug/AntennaBuilder.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Projects/huawei_antenna_modeling/win32_build/Debug/AntennaBuilder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Projects/huawei_antenna_modeling/win32_build/Debug/AntennaBuilder.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -143,7 +146,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -153,16 +156,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,11 +176,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic moc for target AntennaBuilder</Message>
       <Command>setlocal
-cd C:\Users\leon\Desktop\huawei_antenna_modeling\build
+cd D:\Projects\huawei_antenna_modeling\win32_build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/leon/Desktop/huawei_antenna_modeling/build/CMakeFiles/AntennaBuilder_automoc.dir/ Release
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/AntennaBuilder_automoc.dir/ Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -190,10 +194,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgets.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Core.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Gui.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgets.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Gui.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <ImportLibrary>C:/Users/leon/Desktop/huawei_antenna_modeling/build/Release/AntennaBuilder.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/leon/Desktop/huawei_antenna_modeling/build/Release/AntennaBuilder.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Projects/huawei_antenna_modeling/win32_build/Release/AntennaBuilder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Projects/huawei_antenna_modeling/win32_build/Release/AntennaBuilder.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -201,7 +206,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -211,16 +216,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -230,11 +236,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic moc for target AntennaBuilder</Message>
       <Command>setlocal
-cd C:\Users\leon\Desktop\huawei_antenna_modeling\build
+cd D:\Projects\huawei_antenna_modeling\win32_build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/leon/Desktop/huawei_antenna_modeling/build/CMakeFiles/AntennaBuilder_automoc.dir/ MinSizeRel
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/AntennaBuilder_automoc.dir/ MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -248,10 +254,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgets.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Core.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Gui.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgets.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Gui.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <ImportLibrary>C:/Users/leon/Desktop/huawei_antenna_modeling/build/MinSizeRel/AntennaBuilder.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/leon/Desktop/huawei_antenna_modeling/build/MinSizeRel/AntennaBuilder.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Projects/huawei_antenna_modeling/win32_build/MinSizeRel/AntennaBuilder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Projects/huawei_antenna_modeling/win32_build/MinSizeRel/AntennaBuilder.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -259,7 +266,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -275,10 +282,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\leon\Desktop\huawei_antenna_modeling\build;C:\Users\leon\Desktop\huawei_antenna_modeling;C:\Users\leon\Desktop\huawei_antenna_modeling\include;C:\Users\leon\Desktop\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Projects\huawei_antenna_modeling\win32_build;D:\Projects\huawei_antenna_modeling;D:\Projects\huawei_antenna_modeling\include;D:\Projects\huawei_antenna_modeling\.\src;D:\Projects\huawei_antenna_modeling\.\src\Curve;D:\Projects\huawei_antenna_modeling\.\src\MocapIO;D:\Projects\huawei_antenna_modeling\.\src\NansyLib;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath;D:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve;D:\Projects\huawei_antenna_modeling\.\src\Skinning;D:\Projects\huawei_antenna_modeling\.\src\Util;D:\Projects\huawei_antenna_modeling\ui;C:\SDK\Qt\5.3\msvc2013_opengl\include;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore;C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013;C:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -288,11 +295,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic moc for target AntennaBuilder</Message>
       <Command>setlocal
-cd C:\Users\leon\Desktop\huawei_antenna_modeling\build
+cd D:\Projects\huawei_antenna_modeling\win32_build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/leon/Desktop/huawei_antenna_modeling/build/CMakeFiles/AntennaBuilder_automoc.dir/ RelWithDebInfo
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/AntennaBuilder_automoc.dir/ RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -306,10 +313,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgets.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5OpenGL.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Core.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Gui.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgets.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Gui.lib;C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Core.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>C:/Users/leon/Desktop/huawei_antenna_modeling/build/RelWithDebInfo/AntennaBuilder.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/leon/Desktop/huawei_antenna_modeling/build/RelWithDebInfo/AntennaBuilder.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/Projects/huawei_antenna_modeling/win32_build/RelWithDebInfo/AntennaBuilder.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Projects/huawei_antenna_modeling/win32_build/RelWithDebInfo/AntennaBuilder.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -317,9 +325,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="..\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/leon/Desktop/huawei_antenna_modeling/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Projects/huawei_antenna_modeling/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/leon/Desktop/huawei_antenna_modeling -BC:/Users/leon/Desktop/huawei_antenna_modeling/build --check-stamp-file C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Projects/huawei_antenna_modeling -BD:/Projects/huawei_antenna_modeling/win32_build --check-stamp-file D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -327,12 +335,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/leon/Desktop/huawei_antenna_modeling/CMakeLists.txt;C:\Users\leon\Desktop\huawei_antenna_modeling\CMakeLists.txt;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeSystem.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeCCompiler.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5Widgets_AccessibleFactory.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Projects/huawei_antenna_modeling/CMakeLists.txt;D:\Projects\huawei_antenna_modeling\CMakeLists.txt;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeSystem.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeCCompiler.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5Widgets_AccessibleFactory.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\Projects\huawei_antenna_modeling\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/leon/Desktop/huawei_antenna_modeling/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Projects/huawei_antenna_modeling/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/leon/Desktop/huawei_antenna_modeling -BC:/Users/leon/Desktop/huawei_antenna_modeling/build --check-stamp-file C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Projects/huawei_antenna_modeling -BD:/Projects/huawei_antenna_modeling/win32_build --check-stamp-file D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -340,12 +348,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/leon/Desktop/huawei_antenna_modeling/CMakeLists.txt;C:\Users\leon\Desktop\huawei_antenna_modeling\CMakeLists.txt;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeSystem.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeCCompiler.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5Widgets_AccessibleFactory.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Projects/huawei_antenna_modeling/CMakeLists.txt;D:\Projects\huawei_antenna_modeling\CMakeLists.txt;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeSystem.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeCCompiler.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5Widgets_AccessibleFactory.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\Projects\huawei_antenna_modeling\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/leon/Desktop/huawei_antenna_modeling/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Projects/huawei_antenna_modeling/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/leon/Desktop/huawei_antenna_modeling -BC:/Users/leon/Desktop/huawei_antenna_modeling/build --check-stamp-file C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Projects/huawei_antenna_modeling -BD:/Projects/huawei_antenna_modeling/win32_build --check-stamp-file D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -353,12 +361,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/leon/Desktop/huawei_antenna_modeling/CMakeLists.txt;C:\Users\leon\Desktop\huawei_antenna_modeling\CMakeLists.txt;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeSystem.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeCCompiler.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5Widgets_AccessibleFactory.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Projects/huawei_antenna_modeling/CMakeLists.txt;D:\Projects\huawei_antenna_modeling\CMakeLists.txt;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeSystem.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeCCompiler.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5Widgets_AccessibleFactory.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\Projects\huawei_antenna_modeling\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/leon/Desktop/huawei_antenna_modeling/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Projects/huawei_antenna_modeling/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/leon/Desktop/huawei_antenna_modeling -BC:/Users/leon/Desktop/huawei_antenna_modeling/build --check-stamp-file C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/Projects/huawei_antenna_modeling -BD:/Projects/huawei_antenna_modeling/win32_build --check-stamp-file D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -366,20 +374,83 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/leon/Desktop/huawei_antenna_modeling/CMakeLists.txt;C:\Users\leon\Desktop\huawei_antenna_modeling\CMakeLists.txt;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeSystem.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeCCompiler.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\3.0.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5Widgets_AccessibleFactory.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Users\leon\Desktop\huawei_antenna_modeling\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\leon\Desktop\huawei_antenna_modeling\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Projects/huawei_antenna_modeling/CMakeLists.txt;D:\Projects\huawei_antenna_modeling\CMakeLists.txt;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeSystem.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeCCompiler.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCommonLanguageInclude.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5Widgets_AccessibleFactory.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\SDK\Qt\5.3\msvc2013_opengl\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;D:\Projects\huawei_antenna_modeling\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\main.cpp"  />
-    <ClCompile Include="..\ui\antennaglwidget.cpp"  />
-    <ClCompile Include="..\ui\mainwindow.cpp"  />
-    <ClCompile Include="AntennaBuilder_automoc.cpp"  />
+    <ClCompile Include="..\src\AnduGLWidget.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Curve\Vectorizer.cpp">
+      <ObjectFileName>$(IntDir)/src/Curve/Vectorizer.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\MocapIO\BVHReader.cpp" />
+    <ClCompile Include="..\src\MocapIO\BVHWriter.cpp" />
+    <ClCompile Include="..\src\MocapIO\DataRW.cpp" />
+    <ClCompile Include="..\src\MocapIO\MotionClip.cpp" />
+    <ClCompile Include="..\src\MocapIO\MotionJoint.cpp" />
+    <ClCompile Include="..\src\MocapIO\MotionKeyframeSeries.cpp" />
+    <ClCompile Include="..\src\MocapIO\SerialTextDataReader.cpp" />
+    <ClCompile Include="..\src\NansyLib\ActLine.cpp" />
+    <ClCompile Include="..\src\NansyLib\ActLinePair.cpp" />
+    <ClCompile Include="..\src\NansyLib\ActPolygon.cpp" />
+    <ClCompile Include="..\src\NansyLib\ItemSpace.cpp" />
+    <ClCompile Include="..\src\NansyLib\MidSpace.cpp" />
+    <ClCompile Include="..\src\NansyLib\Nansy.cpp" />
+    <ClCompile Include="..\src\NansyLib\NansyMath.cpp" />
+    <ClCompile Include="..\src\NansyLib\NansyMenu.cpp" />
+    <ClCompile Include="..\src\NansyLib\ObjReader.cpp">
+      <ObjectFileName>$(IntDir)/src/NansyLib/ObjReader.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\NansyLib\PlaneEquation.cpp" />
+    <ClCompile Include="..\src\NansyLib\SandboxGLWidget.cpp">
+      <ObjectFileName>$(IntDir)/src/NansyLib/SandboxGLWidget.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\NansyLib\WindowDot.cpp" />
+    <ClCompile Include="..\src\NansyLib\WindowLine.cpp" />
+    <ClCompile Include="..\src\NansyLib\WindowPolygon.cpp" />
+    <ClCompile Include="..\src\NansyLib\WorldDot.cpp" />
+    <ClCompile Include="..\src\NansyLib\WorldPolygon.cpp" />
+    <ClCompile Include="..\src\QuasarMath\ComputeVector.cpp" />
+    <ClCompile Include="..\src\QuasarMath\Line.cpp" />
+    <ClCompile Include="..\src\QuasarMath\Mathematics.cpp" />
+    <ClCompile Include="..\src\QuasarMath\MatrixTool.cpp" />
+    <ClCompile Include="..\src\QuasarMath\Vector2Cmp.cpp" />
+    <ClCompile Include="..\src\QuasarMath\Curve\Vectorizer.cpp">
+      <ObjectFileName>$(IntDir)/src/QuasarMath/Curve/Vectorizer.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\Skinning\ComputeMesh.cpp" />
+    <ClCompile Include="..\src\Skinning\EditableSubMesh.cpp" />
+    <ClCompile Include="..\src\Skinning\Element.cpp" />
+    <ClCompile Include="..\src\Skinning\Mesh.cpp" />
+    <ClCompile Include="..\src\Skinning\MeshSerializer.cpp" />
+    <ClCompile Include="..\src\Skinning\MeshToolbox.cpp" />
+    <ClCompile Include="..\src\Skinning\MeshVertexData.cpp" />
+    <ClCompile Include="..\src\Skinning\Skeleton.cpp" />
+    <ClCompile Include="..\src\Skinning\SubMesh.cpp" />
+    <ClCompile Include="..\src\Skinning\VertexBoneAssignmentData.cpp" />
+    <ClCompile Include="..\src\Skinning\IO\AnduMeshReader.cpp" />
+    <ClCompile Include="..\src\Skinning\IO\AnduObjReader.cpp" />
+    <ClCompile Include="..\src\Skinning\IO\MeshReader.cpp" />
+    <ClCompile Include="..\src\Skinning\IO\MeshWriter.cpp" />
+    <ClCompile Include="..\src\Skinning\IO\ObjReader.cpp">
+      <ObjectFileName>$(IntDir)/src/Skinning/IO/ObjReader.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\Skinning\IO\SubMeshReader.cpp" />
+    <ClCompile Include="..\src\Skinning\IO\SubMeshWriter.cpp" />
+    <ClCompile Include="..\src\Util\ConsoleToolbox.cpp" />
+    <ClCompile Include="..\src\Util\LogWriter.cpp" />
+    <ClCompile Include="..\src\Util\OpenGLToolbox.cpp" />
+    <ClCompile Include="..\ui\mainwindow.cpp" />
+    <ClCompile Include="..\ui\SandboxGLWidget.cpp">
+      <ObjectFileName>$(IntDir)/ui/SandboxGLWidget.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="AntennaBuilder_automoc.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/leon/Desktop/huawei_antenna_modeling/build/ZERO_CHECK.vcxproj">
-      <Project>0F42B598-0460-4382-A9FA-1290ABA4814D</Project>
+    <ProjectReference Include="D:/Projects/huawei_antenna_modeling/win32_build/ZERO_CHECK.vcxproj">
+      <Project>B8CFF42E-9ED2-4204-AB5B-831A034B93A5</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

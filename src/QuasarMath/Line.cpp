@@ -1,5 +1,5 @@
 #include "Line.h"
-#include "..\src\corelib\global\qglobal.h"
+#include "qglobal.h"
 
 Line::Line( Vector3 v1, Vector3 v2 )
 {

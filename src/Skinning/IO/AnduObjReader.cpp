@@ -109,7 +109,7 @@ bool Andu::AnduObjReader::isAnduBox( QString filePath )
 {
 	QFile file(filePath);
 	if(!file.open(QFile::Text | QFile::ReadOnly)) {
-		printf("cannot open %s\n", filePath.toAscii().data());
+		printf("cannot open %s\n", filePath.toLatin1().data());
 		return false;
 	}
 	QString l = file.readLine();

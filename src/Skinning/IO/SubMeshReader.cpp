@@ -17,7 +17,7 @@ MFAErrCode SubMeshReader::Read( SubMesh* subMesh, QTextStream &in )
 	
 	in >> m_AttrName >> name;
 
-	subMesh->SetName(name.toAscii().data());
+	subMesh->SetName(name.toLatin1().data());
 
 	int bIsStencil;
 	in >> m_AttrName >> bIsStencil;

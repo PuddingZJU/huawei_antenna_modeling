@@ -1,9 +1,9 @@
 #ifndef SUBMESHREADER_H
 #define SUBMESHREADER_H
 
-#include "..\src\corelib\io\qtextstream.h"
+#include "qtextstream.h"
 #include "mfacommon.h"
-#include "..\src\corelib\tools\qstringlist.h"
+#include "qstringlist.h"
 
 namespace Caca
 {

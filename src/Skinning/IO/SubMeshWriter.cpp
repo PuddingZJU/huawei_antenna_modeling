@@ -1,10 +1,10 @@
 #include "submeshwriter.h"
 #include "mfacommon.h"
-#include "..\SubMesh.h"
-#include "..\src\corelib\io\qfile.h"
+#include "SubMesh.h"
+#include "qfile.h"
 #include "Mathematics.h"
-#include "..\MeshVertexData.h"
-#include "..\VertexBoneAssignmentData.h"
+#include "MeshVertexData.h"
+#include "VertexBoneAssignmentData.h"
 
 using namespace Caca;
 
@@ -13,7 +13,7 @@ MFAErrCode SubMeshWriter::Write( SubMesh* subMesh, QTextStream& out )
 	out << "MeshType " << "SubMesh" << "\n";
 
 	//write attributes
-	out << "name " << QString::fromAscii(subMesh->Name().data()) << "\n";
+	out << "name " << QString::fromLatin1(subMesh->Name().data()) << "\n";
 	out << "bIsStencil " << subMesh->IsStencil() << "\n";
 	//out << "stencil" << subMesh->
 

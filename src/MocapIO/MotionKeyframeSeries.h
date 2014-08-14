@@ -7,7 +7,7 @@
 #define  _MOTION_KEY_FRAME_SERIES_H_INCLUDED_
 
 #include <map>
-#include "./Curve/Curve.h"
+#include "Curve.h"
 
 
 namespace Caca
@@ -112,14 +112,14 @@ namespace Caca
 				return std::map<int, MotionKeyframe>::erase( _Keyval ); 
 			}
 
-			inline void erase (
+		/*	inline void erase (
 					const int* _First, const int* _Last
 					)
 			{
 				return std::map<int, MotionKeyframe>::erase (
 						_First, _Last
 						);
-			}
+			}*/
 
 			inline std::map<int, MotionKeyframe>::iterator insert (
 					std::map<int, MotionKeyframe>::iterator _Where, 

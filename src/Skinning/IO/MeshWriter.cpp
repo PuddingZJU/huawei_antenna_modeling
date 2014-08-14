@@ -3,14 +3,14 @@
 #include "..\Mesh.h"
 
 #include "..\SubMesh.h"
-#include "..\src\gui\dialogs\qfiledialog.h"
+#include "qfiledialog.h"
 //#include "..\VDModel\NeighborSubMesh.h"
 //#include "neighborsubmeshwriter.h"
 //#include "subdivisionsubmeshwriter.h"
 // #include "..\CharacterModel\SubdivisionSubMesh.h"
 // #include "..\Physics\PhysicsSubMesh.h"
 // #include "physicssubmeshwriter.h"
-#include "..\src\corelib\io\qtextstream.h"
+#include "qtextstream.h"
 #include "SubMeshWriter.h"
 
 using namespace Caca;
@@ -22,7 +22,7 @@ MFAErrCode MeshWriter::Write( Mesh * mesh, QString fileName)
 	//	fileName = QFileDialog::getSaveFileName(
 	//		0, 
 	//		"Select a file to save", 
-	//		QString::fromAscii(prjFolder));
+	//		QString::fromLatin1(prjFolder));
 	//}
 	//if(fileName.isEmpty()) {
 	//	return MFA_USER_CANCEL;

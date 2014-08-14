@@ -6,8 +6,8 @@
 #include <map>
 #include "qpoint.h"
 #include "Mathematics.h"
-#include "..\src\corelib\tools\qstring.h"
-#include "..\src\corelib\io\qtextstream.h"
+#include "qstring.h"
+#include "qtextstream.h"
 #include <assert.h>
 
 using namespace std;

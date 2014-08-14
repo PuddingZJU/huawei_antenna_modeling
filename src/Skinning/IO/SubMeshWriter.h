@@ -2,9 +2,9 @@
 #define SUBMESHWRITER_H
 
 #include "mfacommon.h"
-#include "..\src\corelib\tools\qstring.h"
-#include "..\src\corelib\io\qfile.h"
-#include "..\src\corelib\io\qtextstream.h"
+#include  <QString>
+#include "qfile.h"
+#include <QTextStream>
 
 namespace Caca
 {

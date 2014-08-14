@@ -1,3 +1,6 @@
+#ifndef NANSYMENU_H
+
+#define  NANSYMENU_H
 #include <QMenu>
 
 class NansyMenu : public QMenu
@@ -5,7 +8,7 @@ class NansyMenu : public QMenu
 	Q_OBJECT
 
 public:
-	NansyMenu ( const QString & title, QWidget * parent = 0 ) ;
+	NansyMenu(const QString & title, QWidget * parent = 0);
 	~NansyMenu();
 
 protected:
@@ -16,3 +19,5 @@ signals:
 	void entered();
 	void leaved();
 };
+#endif // !NANSYMENU_H
+

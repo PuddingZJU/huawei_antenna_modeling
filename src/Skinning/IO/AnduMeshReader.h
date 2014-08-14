@@ -1,6 +1,6 @@
 #ifndef AnduMeshReader_h__
 #define AnduMeshReader_h__
-#include "..\src\corelib\tools\qstring.h"
+#include <QString>
 
 namespace Caca
 {

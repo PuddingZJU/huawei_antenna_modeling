@@ -19,7 +19,7 @@
 #include <stdlib.h> 
 #include <iostream>
 #include <iomanip>
-
+#include <algorithm>
 //using namespace std;
 
 // ------------------------------------------------------------
@@ -618,7 +618,7 @@ public:
 // ------------------------------------------------------------
 // Plane
 // ------------------------------------------------------------
-q
+
 class Plane
 {
 public:
@@ -629,7 +629,7 @@ public:
 	{
 		struct
 		{
-			double a, b, c, e;
+			double a, b, c, d;
 		};
 
 		struct

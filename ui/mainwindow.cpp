@@ -9,10 +9,10 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    antennaGLWidget = new AntennaGLWidget();
+   /* antennaGLWidget = new AntennaGLWidget();
 	ui->horizontalLayout->setStretchFactor(ui->GLverticalLayout, 4);
 	ui->horizontalLayout->setStretchFactor(ui->DataverticalLayout, 1);
-    ui->GLverticalLayout->addWidget(antennaGLWidget);
+    ui->GLverticalLayout->addWidget(antennaGLWidget);*/
 }
 
 MainWindow::~MainWindow()

@@ -1,7 +1,7 @@
 #include "meshreader.h"
-#include "..\src\corelib\io\qfile.h"
-#include "..\src\corelib\io\qtextstream.h"
-#include "..\SubMesh.h"
+#include "qfile.h"
+#include "qtextstream.h"
+#include "SubMesh.h"
 #include "submeshreader.h"
 #include "Mesh.h"
 
