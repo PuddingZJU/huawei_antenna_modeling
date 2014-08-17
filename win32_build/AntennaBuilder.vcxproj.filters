@@ -10,7 +10,7 @@
     <ClCompile Include="..\src\SandboxGLWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\Curve\vectorizer.cpp">
+    <ClCompile Include="..\src\Curve\Vectorizer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\src\MocapIO\BVHReader.cpp">
@@ -159,11 +159,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="..\ui\mainwindow.ui" />
     <CustomBuild Include="..\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{4621CCFF-F6B0-465C-AC83-A3CD5D690E19}</UniqueIdentifier>
+      <UniqueIdentifier>{5FA75AB0-B3D9-430A-A420-892A4E219DFD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
