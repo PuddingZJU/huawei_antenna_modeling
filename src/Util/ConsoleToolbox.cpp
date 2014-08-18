@@ -93,7 +93,7 @@ void consoleSeprate(const char* s)
 // 	CloseHandle ( hConsoleRedirect );
 // }
 
-void consoleCall( const char* s, bool wait2end /*= true*/ )
-{
-	WinExec(s, SW_NORMAL);
-}
+//void consoleCall( const char* s, bool wait2end /*= true*/ )
+//{
+//	WinExec(s, SW_NORMAL);
+//}

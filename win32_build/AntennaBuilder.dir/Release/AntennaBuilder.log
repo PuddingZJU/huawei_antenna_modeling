@@ -1,0 +1,175 @@
+﻿Build started 2014/8/18 18:22:53.
+     1>Project "D:\Projects\huawei_antenna_modeling\win32_build\AntennaBuilder.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd D:\Projects\huawei_antenna_modeling\win32_build
+         if %errorlevel% neq 0 goto :cmEnd
+         D:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/AntennaBuilder_automoc.dir/ Release
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Generating ui_mainwindow.h
+         Building Custom Rule D:/Projects/huawei_antenna_modeling/CMakeLists.txt
+         CMake does not need to re-run because D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Projects\huawei_antenna_modeling\win32_build /ID:\Projects\huawei_antenna_modeling /ID:\Projects\huawei_antenna_modeling\include /ID:\Projects\huawei_antenna_modeling\.\src /ID:\Projects\huawei_antenna_modeling\.\src\Curve /ID:\Projects\huawei_antenna_modeling\.\src\MocapIO /ID:\Projects\huawei_antenna_modeling\.\src\NansyLib /ID:\Projects\huawei_antenna_modeling\.\src\QuasarMath /ID:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve /ID:\Projects\huawei_antenna_modeling\.\src\Skinning /ID:\Projects\huawei_antenna_modeling\.\src\Util /ID:\Projects\huawei_antenna_modeling\ui /IC:\SDK\Qt\5.3\msvc2013_opengl\include /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore /I"C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013" /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtXml /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D NOMINMAX /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_NO_DEBUG /D QT_OPENGL_LIB /D QT_XML_LIB /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"AntennaBuilder.dir\Release\\" /Fd"AntennaBuilder.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\AnduGLWidget.cpp ..\src\main.cpp ..\src\SandboxGLWidget.cpp ..\src\Curve\vectorizer.cpp ..\src\MocapIO\BVHReader.cpp ..\src\MocapIO\BVHWriter.cpp ..\src\MocapIO\DataRW.cpp ..\src\MocapIO\MotionClip.cpp ..\src\MocapIO\MotionJoint.cpp ..\src\MocapIO\MotionKeyframeSeries.cpp ..\src\MocapIO\SerialTextDataReader.cpp ..\src\NansyLib\ActLine.cpp ..\src\NansyLib\ActLinePair.cpp ..\src\NansyLib\ActPolygon.cpp ..\src\NansyLib\ItemSpace.cpp ..\src\NansyLib\MidSpace.cpp ..\src\NansyLib\Nansy.cpp ..\src\NansyLib\NansyMath.cpp ..\src\NansyLib\NansyMenu.cpp ..\src\NansyLib\PlaneEquation.cpp ..\src\NansyLib\WindowDot.cpp ..\src\NansyLib\WindowLine.cpp ..\src\NansyLib\WindowPolygon.cpp ..\src\NansyLib\WorldDot.cpp ..\src\NansyLib\WorldPolygon.cpp ..\src\QuasarMath\ComputeVector.cpp ..\src\QuasarMath\Line.cpp ..\src\QuasarMath\Mathematics.cpp ..\src\QuasarMath\MatrixTool.cpp ..\src\QuasarMath\Vector2Cmp.cpp ..\src\Skinning\ComputeMesh.cpp ..\src\Skinning\EditableSubMesh.cpp ..\src\Skinning\Element.cpp ..\src\Skinning\Mesh.cpp ..\src\Skinning\MeshSerializer.cpp ..\src\Skinning\MeshToolbox.cpp ..\src\Skinning\MeshVertexData.cpp ..\src\Skinning\Skeleton.cpp ..\src\Skinning\SubMesh.cpp ..\src\Skinning\VertexBoneAssignmentData.cpp ..\src\Skinning\IO\AnduMeshReader.cpp ..\src\Skinning\IO\AnduObjReader.cpp ..\src\Skinning\IO\MeshReader.cpp ..\src\Skinning\IO\MeshWriter.cpp ..\src\Skinning\IO\ObjReader.cpp ..\src\Skinning\IO\SubMeshReader.cpp ..\src\Skinning\IO\SubMeshWriter.cpp ..\src\Util\ConsoleToolbox.cpp ..\src\Util\LogWriter.cpp ..\src\Util\OpenGLToolbox.cpp ..\ui\mainwindow.cpp AntennaBuilder_automoc.cpp
+         AnduGLWidget.cpp
+     1>..\src\AnduGLWidget.cpp(104): warning C4101: 'p' : unreferenced local variable
+         main.cpp
+         SandboxGLWidget.cpp
+         vectorizer.cpp
+     1>..\src\Curve\vectorizer.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\Curve\vectorizer.cpp(171): warning C4018: '<' : signed/unsigned mismatch
+         BVHReader.cpp
+         BVHWriter.cpp
+         DataRW.cpp
+         MotionClip.cpp
+     1>..\src\MocapIO\MotionClip.cpp(794): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\MocapIO\MotionClip.cpp(845): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\MocapIO\MotionClip.cpp(843): warning C4101: 'scale' : unreferenced local variable
+         MotionJoint.cpp
+         MotionKeyframeSeries.cpp
+         SerialTextDataReader.cpp
+         ActLine.cpp
+         ActLinePair.cpp
+         ActPolygon.cpp
+         ItemSpace.cpp
+         MidSpace.cpp
+         Nansy.cpp
+         NansyMath.cpp
+         NansyMenu.cpp
+         PlaneEquation.cpp
+         Generating Code...
+         Compiling...
+         WindowDot.cpp
+         WindowLine.cpp
+         WindowPolygon.cpp
+     1>..\src\NansyLib\WindowPolygon.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\NansyLib\WindowPolygon.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\NansyLib\WindowPolygon.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\NansyLib\WindowPolygon.cpp(104): warning C4101: 'out' : unreferenced local variable
+         WorldDot.cpp
+         WorldPolygon.cpp
+         ComputeVector.cpp
+     1>..\src\QuasarMath\ComputeVector.cpp(396): warning C4018: '<' : signed/unsigned mismatch
+         Line.cpp
+         Mathematics.cpp
+         MatrixTool.cpp
+         Vector2Cmp.cpp
+         ComputeMesh.cpp
+         EditableSubMesh.cpp
+         Element.cpp
+         Mesh.cpp
+         MeshSerializer.cpp
+         MeshToolbox.cpp
+     1>..\src\Skinning\MeshToolbox.cpp(1): warning C4005: 'NOMINMAX' : macro redefinition
+                 command-line arguments :  see previous definition of 'NOMINMAX'
+     1>..\src\Skinning\MeshToolbox.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\Skinning\MeshToolbox.cpp(516): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\Skinning\MeshToolbox.cpp(578): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\Skinning\MeshToolbox.cpp(594): warning C4018: '<' : signed/unsigned mismatch
+         MeshVertexData.cpp
+     1>..\src\Skinning\MeshVertexData.cpp(63): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\src\Skinning\MeshVertexData.cpp(80): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\src\Skinning\MeshVertexData.cpp(96): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\src\Skinning\MeshVertexData.cpp(114): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\src\Skinning\MeshVertexData.cpp(131): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\src\Skinning\MeshVertexData.cpp(148): warning C4018: '>=' : signed/unsigned mismatch
+     1>..\src\Skinning\MeshVertexData.cpp(166): warning C4018: '>=' : signed/unsigned mismatch
+         Skeleton.cpp
+         SubMesh.cpp
+         VertexBoneAssignmentData.cpp
+         Generating Code...
+         Compiling...
+         AnduMeshReader.cpp
+         AnduObjReader.cpp
+     1>..\src\Skinning\IO\AnduObjReader.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+         MeshReader.cpp
+         MeshWriter.cpp
+         ObjReader.cpp
+         SubMeshReader.cpp
+     1>..\src\Skinning\IO\SubMeshReader.cpp(31): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\Skinning\IO\SubMeshReader.cpp(60): warning C4018: '<' : signed/unsigned mismatch
+     1>..\src\Skinning\IO\SubMeshReader.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+         SubMeshWriter.cpp
+     1>..\src\Skinning\IO\SubMeshWriter.cpp(53): warning C4018: '<' : signed/unsigned mismatch
+         ConsoleToolbox.cpp
+         LogWriter.cpp
+         OpenGLToolbox.cpp
+     1>..\src\Util\OpenGLToolbox.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+         mainwindow.cpp
+     1>..\ui\mainwindow.cpp(248): warning C4018: '<' : signed/unsigned mismatch
+     1>..\ui\mainwindow.cpp(252): warning C4018: '<' : signed/unsigned mismatch
+     1>..\ui\mainwindow.cpp(256): warning C4018: '<' : signed/unsigned mismatch
+     1>..\ui\mainwindow.cpp(282): warning C4018: '<' : signed/unsigned mismatch
+     1>..\ui\mainwindow.cpp(286): warning C4018: '<' : signed/unsigned mismatch
+     1>..\ui\mainwindow.cpp(290): warning C4018: '<' : signed/unsigned mismatch
+         AntennaBuilder_automoc.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\huawei_antenna_modeling\win32_build\Release\AntennaBuilder.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgets.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5OpenGL.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Core.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Gui.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Xml.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgets.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Gui.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Core.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/Projects/huawei_antenna_modeling/win32_build/Release/AntennaBuilder.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/huawei_antenna_modeling/win32_build/Release/AntennaBuilder.lib" /MACHINE:X86 /SAFESEH /ENTRY:"mainCRTStartup" /machine:X86 AntennaBuilder.dir\Release\AnduGLWidget.obj
+         AntennaBuilder.dir\Release\main.obj
+         AntennaBuilder.dir\Release\SandboxGLWidget.obj
+         AntennaBuilder.dir\Release\vectorizer.obj
+         AntennaBuilder.dir\Release\BVHReader.obj
+         AntennaBuilder.dir\Release\BVHWriter.obj
+         AntennaBuilder.dir\Release\DataRW.obj
+         AntennaBuilder.dir\Release\MotionClip.obj
+         AntennaBuilder.dir\Release\MotionJoint.obj
+         AntennaBuilder.dir\Release\MotionKeyframeSeries.obj
+         AntennaBuilder.dir\Release\SerialTextDataReader.obj
+         AntennaBuilder.dir\Release\ActLine.obj
+         AntennaBuilder.dir\Release\ActLinePair.obj
+         AntennaBuilder.dir\Release\ActPolygon.obj
+         AntennaBuilder.dir\Release\ItemSpace.obj
+         AntennaBuilder.dir\Release\MidSpace.obj
+         AntennaBuilder.dir\Release\Nansy.obj
+         AntennaBuilder.dir\Release\NansyMath.obj
+         AntennaBuilder.dir\Release\NansyMenu.obj
+         AntennaBuilder.dir\Release\PlaneEquation.obj
+         AntennaBuilder.dir\Release\WindowDot.obj
+         AntennaBuilder.dir\Release\WindowLine.obj
+         AntennaBuilder.dir\Release\WindowPolygon.obj
+         AntennaBuilder.dir\Release\WorldDot.obj
+         AntennaBuilder.dir\Release\WorldPolygon.obj
+         AntennaBuilder.dir\Release\ComputeVector.obj
+         AntennaBuilder.dir\Release\Line.obj
+         AntennaBuilder.dir\Release\Mathematics.obj
+         AntennaBuilder.dir\Release\MatrixTool.obj
+         AntennaBuilder.dir\Release\Vector2Cmp.obj
+         AntennaBuilder.dir\Release\ComputeMesh.obj
+         AntennaBuilder.dir\Release\EditableSubMesh.obj
+         AntennaBuilder.dir\Release\Element.obj
+         AntennaBuilder.dir\Release\Mesh.obj
+         AntennaBuilder.dir\Release\MeshSerializer.obj
+         AntennaBuilder.dir\Release\MeshToolbox.obj
+         AntennaBuilder.dir\Release\MeshVertexData.obj
+         AntennaBuilder.dir\Release\Skeleton.obj
+         AntennaBuilder.dir\Release\SubMesh.obj
+         AntennaBuilder.dir\Release\VertexBoneAssignmentData.obj
+         AntennaBuilder.dir\Release\AnduMeshReader.obj
+         AntennaBuilder.dir\Release\AnduObjReader.obj
+         AntennaBuilder.dir\Release\MeshReader.obj
+         AntennaBuilder.dir\Release\MeshWriter.obj
+         AntennaBuilder.dir\Release\ObjReader.obj
+         AntennaBuilder.dir\Release\SubMeshReader.obj
+         AntennaBuilder.dir\Release\SubMeshWriter.obj
+         AntennaBuilder.dir\Release\ConsoleToolbox.obj
+         AntennaBuilder.dir\Release\LogWriter.obj
+         AntennaBuilder.dir\Release\OpenGLToolbox.obj
+         AntennaBuilder.dir\Release\mainwindow.obj
+         AntennaBuilder.dir\Release\AntennaBuilder_automoc.obj
+         AntennaBuilder.vcxproj -> D:\Projects\huawei_antenna_modeling\win32_build\Release\AntennaBuilder.exe
+     1>Done Building Project "D:\Projects\huawei_antenna_modeling\win32_build\AntennaBuilder.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:45.42

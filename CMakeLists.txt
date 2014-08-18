@@ -34,6 +34,7 @@ find_package(Qt5Core REQUIRED)
 find_package(Qt5Gui REQUIRED)
 find_package(Qt5Widgets REQUIRED)
 find_package(Qt5OpenGL REQUIRED)
+find_package(Qt5XML REQUIRED)
 #set Qt5 file
 file(GLOB_RECURSE GUI_H    "ui/*.h"   )
 file(GLOB_RECURSE GUI_CPP  "ui/*.cpp" )
@@ -45,4 +46,4 @@ qt5_add_resources(GUI_QRC ${GUI_QRC})
 #add executable
 add_executable(AntennaBuilder ${Main_SRC_LIST} ${SandBoxGL_SRC_LIST} ${GUI_MOC} ${GUI_UI} ${GUI_QRC})
 #link qt5
-target_link_libraries(AntennaBuilder Qt5::Widgets Qt5::OpenGL Qt5::Core Qt5::Gui)
+target_link_libraries(AntennaBuilder Qt5::Widgets Qt5::OpenGL Qt5::Core Qt5::Gui Qt5::Xml)

@@ -1,4 +1,4 @@
-﻿Build started 2014/8/18 11:05:02.
+﻿Build started 2014/8/18 18:22:43.
      1>Project "D:\Projects\huawei_antenna_modeling\win32_build\AntennaBuilder.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          setlocal
@@ -15,17 +15,8 @@
          :cmDone
          if %errorlevel% neq 0 goto :VCEnd
          :VCEnd
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Projects\huawei_antenna_modeling\win32_build /ID:\Projects\huawei_antenna_modeling /ID:\Projects\huawei_antenna_modeling\include /ID:\Projects\huawei_antenna_modeling\.\src /ID:\Projects\huawei_antenna_modeling\.\src\Curve /ID:\Projects\huawei_antenna_modeling\.\src\MocapIO /ID:\Projects\huawei_antenna_modeling\.\src\NansyLib /ID:\Projects\huawei_antenna_modeling\.\src\QuasarMath /ID:\Projects\huawei_antenna_modeling\.\src\QuasarMath\Curve /ID:\Projects\huawei_antenna_modeling\.\src\Skinning /ID:\Projects\huawei_antenna_modeling\.\src\Util /ID:\Projects\huawei_antenna_modeling\ui /IC:\SDK\Qt\5.3\msvc2013_opengl\include /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtWidgets /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtGui /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtCore /I"C:\SDK\Qt\5.3\msvc2013_opengl\mkspecs\win32-msvc2013" /IC:\SDK\Qt\5.3\msvc2013_opengl\include\QtOpenGL /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D NOMINMAX /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_OPENGL_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"AntennaBuilder.dir\Debug\\" /Fd"AntennaBuilder.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\ui\mainwindow.cpp
-         mainwindow.cpp
-     1>..\ui\mainwindow.cpp(127): warning C4018: '<' : signed/unsigned mismatch
-     1>..\ui\mainwindow.cpp(131): warning C4018: '<' : signed/unsigned mismatch
-     1>..\ui\mainwindow.cpp(135): warning C4018: '<' : signed/unsigned mismatch
-     1>..\ui\mainwindow.cpp(161): warning C4018: '<' : signed/unsigned mismatch
-     1>..\ui\mainwindow.cpp(165): warning C4018: '<' : signed/unsigned mismatch
-     1>..\ui\mainwindow.cpp(169): warning C4018: '<' : signed/unsigned mismatch
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\huawei_antenna_modeling\win32_build\Debug\AntennaBuilder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgetsd.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5OpenGLd.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Cored.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Guid.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgetsd.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Guid.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Cored.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/huawei_antenna_modeling/win32_build/Debug/AntennaBuilder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/huawei_antenna_modeling/win32_build/Debug/AntennaBuilder.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug AntennaBuilder.dir\Debug\AnduGLWidget.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\huawei_antenna_modeling\win32_build\Debug\AntennaBuilder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgetsd.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5OpenGLd.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Cored.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Guid.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Xmld.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Widgetsd.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Guid.lib C:\SDK\Qt\5.3\msvc2013_opengl\lib\Qt5Cored.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/huawei_antenna_modeling/win32_build/Debug/AntennaBuilder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/huawei_antenna_modeling/win32_build/Debug/AntennaBuilder.lib" /MACHINE:X86 /SAFESEH /machine:X86 /debug AntennaBuilder.dir\Debug\AnduGLWidget.obj
          AntennaBuilder.dir\Debug\main.obj
          AntennaBuilder.dir\Debug\SandboxGLWidget.obj
          AntennaBuilder.dir\Debug\vectorizer.obj
@@ -82,4 +73,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.53
+Time Elapsed 00:00:01.04

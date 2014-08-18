@@ -7,6 +7,7 @@
 #include "Mesh.h"
 #include "SubMesh.h"
 #include <fstream>
+#include <QtXml/QDomDocument>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -20,11 +21,11 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->GLverticalLayout->addWidget(antennaGLWidget);
 	connect(ui->calculateButton, &QPushButton::clicked,this, &MainWindow::CalCulateButtonClicked);
 	connect(ui->ShowModelButton, &QPushButton::clicked,this, &MainWindow::ShowModelButtonClicked);
-	connect(ui->actionNew, &QAction::triggered, this, &MainWindow::CalCulateButtonClicked);
+	connect(ui->actionNew, &QAction::triggered, this, &MainWindow::NewFile);
 	connect(ui->actionOpen, &QAction::triggered, this, &MainWindow::OpenFile);
-	connect(ui->actionSave, &QAction::triggered, this, &MainWindow::CalCulateButtonClicked);
-	connect(ui->actionSave_as, &QAction::triggered, this, &MainWindow::CalCulateButtonClicked);
-	connect(ui->actionExit, &QAction::triggered, this, &MainWindow::CalCulateButtonClicked);
+	connect(ui->actionSave, &QAction::triggered, this, &MainWindow::SaveFile);
+	connect(ui->actionSave_as, &QAction::triggered, this, &MainWindow::SaveFileAs);
+	connect(ui->actionExit, &QAction::triggered, this, &MainWindow::Exit);
 	connect(ui->actionExportOBJ, &QAction::triggered, this, &MainWindow::ExportOBJ);
 
 }
@@ -88,6 +89,7 @@ void MainWindow::ShowModelButtonClicked(){
 	if (L<0 || W<0 || H <0 || r<0 || R<0 || R_str.compare("inf") == 0)
 	{
 		QMessageBox::warning(this, "Error", "Antenna is illegal");
+		return;
 	}
 	BuildAntenna();
 }
@@ -97,27 +99,146 @@ void MainWindow::FileProtect(){
 }
 
 void MainWindow::WriteFile(){
-
+	QDomDocument doc;
+	auto instruction = doc.createProcessingInstruction("xml", "version=\"1.0\" encoding=\"UTF-8\"");
+	doc.appendChild(instruction);
+	QDomElement root = doc.createElement("antenna");
+	doc.appendChild(root);
+	QDomElement el_ = doc.createElement("el");
+	QDomText elText = doc.createTextNode(ui->lineEdit_el->text());
+	el_.appendChild(elText);
+	root.appendChild(el_);
+	QDomElement ml_ = doc.createElement("ml");
+	QDomText mlText = doc.createTextNode(ui->lineEdit_ml->text());
+	ml_.appendChild(mlText);
+	root.appendChild(ml_);
+	QDomElement ew_ = doc.createElement("ew");
+	QDomText ewText = doc.createTextNode(ui->lineEdit_ew->text());
+	ew_.appendChild(ewText);
+	root.appendChild(ew_);
+	QDomElement mw_ = doc.createElement("mw");
+	QDomText mwText = doc.createTextNode(ui->lineEdit_mw->text());
+	mw_.appendChild(mwText);
+	root.appendChild(mw_);
+	QDomElement th_ = doc.createElement("th");
+	QDomText thText = doc.createTextNode(ui->lineEdit_th->text());
+	th_.appendChild(thText);
+	root.appendChild(th_);
+	QDomElement gh_ = doc.createElement("gh");
+	QDomText ghText = doc.createTextNode(ui->lineEdit_gh->text());
+	gh_.appendChild(ghText);
+	root.appendChild(gh_);
+	QFile file(filepath);
+	if (!file.open(QIODevice::WriteOnly | QIODevice::Truncate | QIODevice::Text))
+		return;
+	QTextStream out(&file);
+	out.setCodec("UTF-8");
+	doc.save(out, 4, QDomNode::EncodingFromTextStream);
+	file.close();
 }
+void MainWindow::ReadFile(){
+	QFile file(filepath);
+	if (!file.open(QFile::ReadOnly | QFile::Text))
+	{
+		QMessageBox::information(NULL, QString("title"), QString("open error!"));
 
+		return;
+	}
+	QDomDocument document;
+	QString error;
+	int row = 0, column = 0;
+	if (!document.setContent(&file, false, &error, &row, &column))
+	{
+		QMessageBox::information(NULL, QString("title"), QString("parse file failed at line row and column") + QString::number(row, 10) + QString(",") + QString::number(column, 10));
+
+		return;
+	}
+	if (document.isNull())
+	{
+		QMessageBox::information(NULL, QString("title"), QString("document is null!"));
+		return;
+	}
+	QDomNode antenna = document.documentElement().firstChild();
+	if (antenna.toElement().tagName() == "el")
+	{
+		QString el_str = antenna.firstChild().nodeValue();
+		el = el_str.toDouble();
+		ui->lineEdit_el->setText(el_str);
+		antenna = antenna.nextSibling();
+	}
+	if (antenna.toElement().tagName() == "ml")
+	{
+		QString ml_str = antenna.firstChild().nodeValue();
+		ml = ml_str.toDouble();
+		ui->lineEdit_ml->setText(ml_str);
+		antenna = antenna.nextSibling();
+	}
+	if (antenna.toElement().tagName() == "ew")
+	{
+		QString ew_str = antenna.firstChild().nodeValue();
+		ew = ew_str.toDouble();
+		ui->lineEdit_ew->setText(ew_str);
+		antenna = antenna.nextSibling();
+	}
+	if (antenna.toElement().tagName() == "mw")
+	{
+		QString mw_str = antenna.firstChild().nodeValue();
+		mw = mw_str.toDouble();
+		ui->lineEdit_mw->setText(mw_str);
+		antenna = antenna.nextSibling();
+	}
+	if (antenna.toElement().tagName() == "th")
+	{
+		QString th_str = antenna.firstChild().nodeValue();
+		th = th_str.toDouble();
+		ui->lineEdit_th->setText(th_str);
+		antenna = antenna.nextSibling();
+	}
+	if (antenna.toElement().tagName() == "gh")
+	{
+		QString gh_str = antenna.firstChild().nodeValue();
+		gh = gh_str.toDouble();
+		ui->lineEdit_gh->setText(gh_str);
+		antenna = antenna.nextSibling();
+	}
+	file.close();
+}
 void MainWindow::NewFile(){
-
+	filepath = QFileDialog::getOpenFileName(this, tr("open file"), " ", tr("HWTX file(*.hwtx)"));
+	if (filepath.isEmpty())
+	{
+		return;
+	}
+	
 }
 
 void MainWindow::OpenFile(){
-	// filepath = QFileDialog::getOpenFileName(this, tr("open file"), " ", tr("HWTX file(*.hwtx)"));
-	Andu::AnduMeshReader reader;
-	Caca::Mesh* pMesh = new Caca::Mesh();
-	reader.Read(pMesh, "test.obj");
-	antennaGLWidget->addGLList(1, pMesh);
+	filepath = QFileDialog::getOpenFileName(this, tr("open file"), " ", tr("HWTX file(*.hwtx)"));
+	if (filepath.isEmpty())
+	{
+		return;
+	}
+	ReadFile();
 }
 
 void MainWindow::SaveFile(){
+	if (filepath.isEmpty()){
+		SaveFileAs();
+	}
+	else
+	{
+		WriteFile();
+	}
 
 }
 
 void MainWindow::SaveFileAs(){
-
+	filepath = QFileDialog::getSaveFileName(this, tr("save file"), " ", tr("HWTX file(*.hwtx)"));
+	if (filepath.isEmpty())
+	{
+		return;
+	}
+	SaveFile();
 }
 
 void MainWindow::ExportOBJ(){
@@ -141,7 +262,7 @@ void MainWindow::ExportOBJ(){
 }
 
 void MainWindow::Exit(){
-
+	this->close();
 }
 
 void MainWindow::BuildAntenna(){

@@ -37,6 +37,7 @@ private:
 	void Exit();
 	void FileProtect();
 	void WriteFile();
+	void ReadFile();
 	void BuildButtom();
 	void Sweepping();
 	void SetNormal();
