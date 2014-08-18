@@ -1,3 +1,3 @@
-D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/ALL_BUILD.dir
-D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/AntennaBuilder.dir
-D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/ZERO_CHECK.dir
+D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/ALL_BUILD.dir
+D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/AntennaBuilder.dir
+D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/ZERO_CHECK.dir

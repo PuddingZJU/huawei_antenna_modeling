@@ -1,7 +1,7 @@
 The system is: Windows - 6.2 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler:  
-Build flags: ;/DWIN32;/D_WINDOWS;/W3
+Build flags: 
 Id flags: 
 
 The output was:
@@ -10,8 +10,8 @@ Microsoft (R) Build Engine version 12.0.30501.0
 [Microsoft .NET Framework, version 4.0.30319.34014]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2014/8/17 19:09:49.
-Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Build started 2014/8/18 10:06:49.
+Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdC.tlog\".
@@ -22,7 +22,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.1\CompilerIdC\.\CompilerIdC.exe
+  CompilerIdC.vcxproj -> D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -30,24 +30,24 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.64
+Time Elapsed 00:00:00.77
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/3.0.0/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
-Build flags: ;/DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+Build flags: 
 Id flags: 
 
 The output was:
@@ -56,8 +56,8 @@ Microsoft (R) Build Engine version 12.0.30501.0
 [Microsoft .NET Framework, version 4.0.30319.34014]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2014/8/17 19:09:49.
-Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Build started 2014/8/18 10:06:50.
+Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdCXX.tlog\".
@@ -68,7 +68,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.1\CompilerIdCXX\.\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -76,174 +76,174 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\3.0.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.62
+Time Elapsed 00:00:00.50
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/3.0.0/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp
+Change Dir: D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec765237434.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec589412828.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.30501.0
 [Microsoft .NET Framework, version 4.0.30319.34014]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2014/8/17 19:09:50.
-Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec765237434.vcxproj" on node 1 (default targets).
+Build started 2014/8/18 10:06:51.
+Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec589412828.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTryCompileExec765237434.dir\Debug\".
-  Creating directory "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTryCompileExec765237434.dir\Debug\cmTryCom.A89E014B.tlog\".
+  Creating directory "cmTryCompileExec589412828.dir\Debug\".
+  Creating directory "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec589412828.dir\Debug\cmTryCom.E4BB6DFF.tlog\".
 InitializeBuildStatus:
-  Creating "cmTryCompileExec765237434.dir\Debug\cmTryCom.A89E014B.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTryCompileExec589412828.dir\Debug\cmTryCom.E4BB6DFF.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec765237434.dir\Debug\\" /Fd"cmTryCompileExec765237434.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec589412828.dir\Debug\\" /Fd"cmTryCompileExec589412828.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30501 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec765237434.dir\Debug\\" /Fd"cmTryCompileExec765237434.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec589412828.dir\Debug\\" /Fd"cmTryCompileExec589412828.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
   
   testCCompiler.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec765237434.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec765237434.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec765237434.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec765237434.dir\Debug\testCCompiler.obj
-  cmTryCompileExec765237434.vcxproj -> D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec765237434.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec589412828.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec589412828.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec589412828.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec589412828.dir\Debug\testCCompiler.obj
+  cmTryCompileExec589412828.vcxproj -> D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec589412828.exe
 FinalizeBuildStatus:
-  Deleting file "cmTryCompileExec765237434.dir\Debug\cmTryCom.A89E014B.tlog\unsuccessfulbuild".
-  Touching "cmTryCompileExec765237434.dir\Debug\cmTryCom.A89E014B.tlog\cmTryCompileExec765237434.lastbuildstate".
-Done Building Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec765237434.vcxproj" (default targets).
+  Deleting file "cmTryCompileExec589412828.dir\Debug\cmTryCom.E4BB6DFF.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec589412828.dir\Debug\cmTryCom.E4BB6DFF.tlog\cmTryCompileExec589412828.lastbuildstate".
+Done Building Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec589412828.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.69
+Time Elapsed 00:00:00.79
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp
+Change Dir: D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3477792949.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3797068321.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.30501.0
 [Microsoft .NET Framework, version 4.0.30319.34014]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2014/8/17 19:09:51.
-Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec3477792949.vcxproj" on node 1 (default targets).
+Build started 2014/8/18 10:06:52.
+Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec3797068321.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTryCompileExec3477792949.dir\Debug\".
-  Creating directory "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTryCompileExec3477792949.dir\Debug\cmTryCom.D02033CA.tlog\".
+  Creating directory "cmTryCompileExec3797068321.dir\Debug\".
+  Creating directory "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3797068321.dir\Debug\cmTryCom.0D1DD6EF.tlog\".
 InitializeBuildStatus:
-  Creating "cmTryCompileExec3477792949.dir\Debug\cmTryCom.D02033CA.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTryCompileExec3797068321.dir\Debug\cmTryCom.0D1DD6EF.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3477792949.dir\Debug\\" /Fd"cmTryCompileExec3477792949.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3797068321.dir\Debug\\" /Fd"cmTryCompileExec3797068321.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30501 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3477792949.dir\Debug\\" /Fd"cmTryCompileExec3477792949.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3797068321.dir\Debug\\" /Fd"cmTryCompileExec3797068321.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3477792949.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3477792949.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3477792949.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3477792949.dir\Debug\CMakeCCompilerABI.obj
-  cmTryCompileExec3477792949.vcxproj -> D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3477792949.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3797068321.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3797068321.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3797068321.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3797068321.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec3797068321.vcxproj -> D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3797068321.exe
 FinalizeBuildStatus:
-  Deleting file "cmTryCompileExec3477792949.dir\Debug\cmTryCom.D02033CA.tlog\unsuccessfulbuild".
-  Touching "cmTryCompileExec3477792949.dir\Debug\cmTryCom.D02033CA.tlog\cmTryCompileExec3477792949.lastbuildstate".
-Done Building Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec3477792949.vcxproj" (default targets).
+  Deleting file "cmTryCompileExec3797068321.dir\Debug\cmTryCom.0D1DD6EF.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3797068321.dir\Debug\cmTryCom.0D1DD6EF.tlog\cmTryCompileExec3797068321.lastbuildstate".
+Done Building Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec3797068321.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.68
+Time Elapsed 00:00:00.53
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp
+Change Dir: D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3820024806.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1160659991.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.30501.0
 [Microsoft .NET Framework, version 4.0.30319.34014]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2014/8/17 19:09:52.
-Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec3820024806.vcxproj" on node 1 (default targets).
+Build started 2014/8/18 10:06:52.
+Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec1160659991.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTryCompileExec3820024806.dir\Debug\".
-  Creating directory "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTryCompileExec3820024806.dir\Debug\cmTryCom.504926A8.tlog\".
+  Creating directory "cmTryCompileExec1160659991.dir\Debug\".
+  Creating directory "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1160659991.dir\Debug\cmTryCom.BE5E6187.tlog\".
 InitializeBuildStatus:
-  Creating "cmTryCompileExec3820024806.dir\Debug\cmTryCom.504926A8.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTryCompileExec1160659991.dir\Debug\cmTryCom.BE5E6187.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3820024806.dir\Debug\\" /Fd"cmTryCompileExec3820024806.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1160659991.dir\Debug\\" /Fd"cmTryCompileExec1160659991.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30501 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3820024806.dir\Debug\\" /Fd"cmTryCompileExec3820024806.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1160659991.dir\Debug\\" /Fd"cmTryCompileExec1160659991.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
   
   testCXXCompiler.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3820024806.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3820024806.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3820024806.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3820024806.dir\Debug\testCXXCompiler.obj
-  cmTryCompileExec3820024806.vcxproj -> D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3820024806.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1160659991.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1160659991.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1160659991.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1160659991.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec1160659991.vcxproj -> D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1160659991.exe
 FinalizeBuildStatus:
-  Deleting file "cmTryCompileExec3820024806.dir\Debug\cmTryCom.504926A8.tlog\unsuccessfulbuild".
-  Touching "cmTryCompileExec3820024806.dir\Debug\cmTryCom.504926A8.tlog\cmTryCompileExec3820024806.lastbuildstate".
-Done Building Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec3820024806.vcxproj" (default targets).
+  Deleting file "cmTryCompileExec1160659991.dir\Debug\cmTryCom.BE5E6187.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1160659991.dir\Debug\cmTryCom.BE5E6187.tlog\cmTryCompileExec1160659991.lastbuildstate".
+Done Building Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec1160659991.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.69
+Time Elapsed 00:00:00.54
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp
+Change Dir: D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1607448995.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2462264586.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.30501.0
 [Microsoft .NET Framework, version 4.0.30319.34014]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 2014/8/17 19:09:53.
-Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec1607448995.vcxproj" on node 1 (default targets).
+Build started 2014/8/18 10:06:53.
+Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec2462264586.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTryCompileExec1607448995.dir\Debug\".
-  Creating directory "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTryCompileExec1607448995.dir\Debug\cmTryCom.06364116.tlog\".
+  Creating directory "cmTryCompileExec2462264586.dir\Debug\".
+  Creating directory "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2462264586.dir\Debug\cmTryCom.A2C35F66.tlog\".
 InitializeBuildStatus:
-  Creating "cmTryCompileExec1607448995.dir\Debug\cmTryCom.06364116.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTryCompileExec2462264586.dir\Debug\cmTryCom.A2C35F66.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1607448995.dir\Debug\\" /Fd"cmTryCompileExec1607448995.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2462264586.dir\Debug\\" /Fd"cmTryCompileExec2462264586.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.30501 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1607448995.dir\Debug\\" /Fd"cmTryCompileExec1607448995.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2462264586.dir\Debug\\" /Fd"cmTryCompileExec2462264586.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1607448995.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1607448995.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/leon/Documents/GitHub/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1607448995.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1607448995.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTryCompileExec1607448995.vcxproj -> D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1607448995.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2462264586.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2462264586.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Projects/huawei_antenna_modeling/win32_build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2462264586.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2462264586.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec2462264586.vcxproj -> D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2462264586.exe
 FinalizeBuildStatus:
-  Deleting file "cmTryCompileExec1607448995.dir\Debug\cmTryCom.06364116.tlog\unsuccessfulbuild".
-  Touching "cmTryCompileExec1607448995.dir\Debug\cmTryCom.06364116.tlog\cmTryCompileExec1607448995.lastbuildstate".
-Done Building Project "D:\Users\leon\Documents\GitHub\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec1607448995.vcxproj" (default targets).
+  Deleting file "cmTryCompileExec2462264586.dir\Debug\cmTryCom.A2C35F66.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2462264586.dir\Debug\cmTryCom.A2C35F66.tlog\cmTryCompileExec2462264586.lastbuildstate".
+Done Building Project "D:\Projects\huawei_antenna_modeling\win32_build\CMakeFiles\CMakeTmp\cmTryCompileExec2462264586.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.68
+Time Elapsed 00:00:00.54
 
 

@@ -14,17 +14,14 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     antennaGLWidget = new Andu::AnduGLWidget();
-	//Andu::AnduMeshReader reader;
-	//Caca::Mesh* pMesh = new Caca::Mesh();
-	//reader.Read(pMesh, "D:\\Users\\leon\\Desktop\\small_antenna.obj");
-	//antennaGLWidget->addGLList(1, pMesh);
+	
 	ui->horizontalLayout->setStretchFactor(ui->GLverticalLayout, 4);
 	ui->horizontalLayout->setStretchFactor(ui->DataverticalLayout, 1);
     ui->GLverticalLayout->addWidget(antennaGLWidget);
 	connect(ui->calculateButton, &QPushButton::clicked,this, &MainWindow::CalCulateButtonClicked);
 	connect(ui->ShowModelButton, &QPushButton::clicked,this, &MainWindow::ShowModelButtonClicked);
 	connect(ui->actionNew, &QAction::triggered, this, &MainWindow::CalCulateButtonClicked);
-	connect(ui->actionOpen, &QAction::triggered, this, &MainWindow::CalCulateButtonClicked);
+	connect(ui->actionOpen, &QAction::triggered, this, &MainWindow::OpenFile);
 	connect(ui->actionSave, &QAction::triggered, this, &MainWindow::CalCulateButtonClicked);
 	connect(ui->actionSave_as, &QAction::triggered, this, &MainWindow::CalCulateButtonClicked);
 	connect(ui->actionExit, &QAction::triggered, this, &MainWindow::CalCulateButtonClicked);
@@ -108,7 +105,11 @@ void MainWindow::NewFile(){
 }
 
 void MainWindow::OpenFile(){
-	 filepath = QFileDialog::getOpenFileName(this, tr("open file"), " ", tr("HWTX file(*.hwtx)"));
+	// filepath = QFileDialog::getOpenFileName(this, tr("open file"), " ", tr("HWTX file(*.hwtx)"));
+	Andu::AnduMeshReader reader;
+	Caca::Mesh* pMesh = new Caca::Mesh();
+	reader.Read(pMesh, "test.obj");
+	antennaGLWidget->addGLList(1, pMesh);
 }
 
 void MainWindow::SaveFile(){
@@ -120,6 +121,7 @@ void MainWindow::SaveFileAs(){
 }
 
 void MainWindow::ExportOBJ(){
+	
 	std::ofstream out("test.obj");
 	out << "g default" << std::endl;
 	for (int i = 0;	i < vp.size(); i++)
@@ -135,6 +137,7 @@ void MainWindow::ExportOBJ(){
 		out << "f " << face[i].idx1 << "//" << face[i].idx1 << " " << face[i].idx2 << "//" << face[i].idx2 << " " << face[i].idx3 << "//" << face[i].idx3 << std::endl;
 	}
 	out.close();
+
 }
 
 void MainWindow::Exit(){
@@ -150,8 +153,30 @@ void MainWindow::BuildAntenna(){
 	Sweepping();
 	SetNormal();
 	SetFace();
+	std::ofstream mtlout("tmp.mtl");
+	mtlout << "#tmp.mtl";
+	mtlout.close();
+	std::ofstream out("tmp.obj");
+	out << "g default" << std::endl;
+	for (int i = 0; i < vp.size(); i++)
+	{
+		out << "v " << vp[i].x << " " << vp[i].y << " " << vp[i].z << std::endl;
+	}
+	for (int i = 0; i < vn.size(); i++)
+	{
+		out << "vn " << vn[i].x << " " << vn[i].y << " " << vn[i].z << std::endl;
+	}
+	for (int i = 0; i < face.size(); i++)
+	{
+		out << "f " << face[i].idx1 << "//" << face[i].idx1 << " " << face[i].idx2 << "//" << face[i].idx2 << " " << face[i].idx3 << "//" << face[i].idx3 << std::endl;
+	}
+	out.close();
+	antennaGLWidget->delAllGLList();
+	Andu::AnduMeshReader reader;
 	Caca::Mesh* pMesh = new Caca::Mesh();
-	Caca::SubMesh * pSubMesh = new Caca::SubMesh();
+	reader.Read(pMesh, "tmp.obj");
+	antennaGLWidget->addGLList(1, pMesh);
+	antennaGLWidget->updateGL();
 }
 
 void MainWindow::BuildButtom(){
@@ -291,17 +316,17 @@ void MainWindow::SetFace(){
 		for (int j = 0; j < h_cnt; j++)
 		{
 			FaceVec tmp;
-			tmp.idx3 = j + (i - 1)*h_cnt;
-			tmp.idx2 = (j + 1) % h_cnt + (i - 1)*h_cnt;
-			tmp.idx1 = j + i*h_cnt;
+			tmp.idx3 = j + (i - 1)*h_cnt + 1 ;
+			tmp.idx2 = (j + 1) % h_cnt + (i - 1)*h_cnt + 1;
+			tmp.idx1 = j + i*h_cnt + 1;
 			face.push_back(tmp);
 		}
 		for (int j = 0; j < h_cnt; j++)
 		{
 			FaceVec tmp;
-			tmp.idx3 = j + i*h_cnt;
-			tmp.idx1 = (j + 1) % h_cnt + i*h_cnt;
-			tmp.idx2 = (j + 1) % h_cnt + (i - 1)*h_cnt;
+			tmp.idx3 = j + i*h_cnt + 1;
+			tmp.idx1 = (j + 1) % h_cnt + i*h_cnt + 1;
+			tmp.idx2 = (j + 1) % h_cnt + (i - 1)*h_cnt + 1;
 			face.push_back(tmp);
 		}
 	}
